@@ -11,6 +11,12 @@ Last updated: 2025-01-16
 
 > Centralized hub for preparing for the [AI-900 Microsoft certification](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900). Kindly refer to the [official Microsoft documentation](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification) for additional preparation materials.
 
+<details>
+<summary><b>List of References </b> (Click to expand)</summary>
+
+  
+</details>
+
 <div align="center">
   <h3 style="color: #4CAF50;">Total Visitors</h3>
   <img src="https://profile-counter.glitch.me/brown9804/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
