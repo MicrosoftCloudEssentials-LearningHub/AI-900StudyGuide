@@ -14,7 +14,15 @@ Last updated: 2025-01-16
 <summary><b>List of References </b> (Click to expand)</summary>
 
 - [What is a confusion matrix?](https://www.nomidl.com/machine-learning/what-is-a-confusion-matrix/)
-  
+- [Introduction to machine learning](https://learn.microsoft.com/en-us/training/modules/introduction-to-machine-learning/)
+- [What is Azure Machine Learning?](https://learn.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-machine-learning?view=azureml-api-2)
+- [Evaluate model performance in Machine Learning Studio (classic)](https://learn.microsoft.com/en-us/previous-versions/azure/machine-learning/classic/evaluate-model-performance)
+- [Anomaly Detection](https://learn.microsoft.com/en-us/previous-versions/azure/machine-learning/studio-module-reference/anomaly-detection)
+- [AI considerations for your cloud strategy](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/inform/ai)
+- [Natural language processing technology](https://learn.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/natural-language-processing)
+- [AI learning hub](https://learn.microsoft.com/en-us/ai/?tabs=developer)
+- [Microsoft Azure AI Fundamentals: AI Overview](https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/)
+
 </details>
 
 ## Q: Selecting the Appropriate Module in Azure Machine Learning Designer
