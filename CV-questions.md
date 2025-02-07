@@ -16,6 +16,122 @@ Last updated: 2025-01-16
 </details>
 
 
+## Q: Identifying AI Services for Sentiment Analysis
+
+> Which service should you use to analyze customer reviews and determine whether they are positive, negative, or neutral?
+
+**Options:**
+- [x] A. Text Analytics `This is the correct answer because Text Analytics is used for analyzing unstructured text data, such as sentiment analysis.`
+- [ ] B. Language Understanding `This is incorrect because Language Understanding (LUIS) is used for building natural language understanding models, not for sentiment analysis.`
+- [ ] C. Custom Vision `This is incorrect because Custom Vision is used for image classification and object detection, not for analyzing text data.`
+- [ ] D. Form Recognizer `This is incorrect because Form Recognizer is used for extracting text and data from forms and documents, not for sentiment analysis.`
+
+
+## Q: Extracting Key Phrases from Text
+
+> Which service should you use to extract important phrases and keywords from a large collection of documents?
+
+**Options:**
+- [x] A. Text Analytics `This is the correct answer because Text Analytics is used for extracting key phrases and keywords from unstructured text data.`
+- [ ] B. Language Understanding `This is incorrect because Language Understanding (LUIS) is used for building natural language understanding models, not for extracting key phrases.`
+- [ ] C. Custom Vision `This is incorrect because Custom Vision is used for image classification and object detection, not for analyzing text data.`
+- [ ] D. Form Recognizer `This is incorrect because Form Recognizer is used for extracting text and data from forms and documents, not for extracting key phrases.`
+
+
+## Q: Translating Text Between Languages
+
+> Which service should you use to translate text from one language to another?
+
+**Options:**
+- [ ] A. Text Analytics `This is incorrect because Text Analytics is used for analyzing unstructured text data, not for translating text.`
+- [x] B. Translator `This is the correct answer because Translator is used for translating text between different languages.`
+- [ ] C. Custom Vision `This is incorrect because Custom Vision is used for image classification and object detection, not for translating text.`
+- [ ] D. Form Recognizer `This is incorrect because Form Recognizer is used for extracting text and data from forms and documents, not for translating text.`
+
+## Q: Detecting Language of Text
+
+> Which service should you use to identify the language of a given text?
+
+**Options:**
+- [x] A. Text Analytics `This is the correct answer because Text Analytics includes language detection capabilities.`
+- [ ] B. Language Understanding `This is incorrect because Language Understanding (LUIS) is used for building natural language understanding models, not for detecting the language of text.`
+- [ ] C. Custom Vision `This is incorrect because Custom Vision is used for image classification and object detection, not for detecting the language of text.`
+- [ ] D. Form Recognizer `This is incorrect because Form Recognizer is used for extracting text and data from forms and documents, not for detecting the language of text.`
+
+
+## Q: Identifying Objects in Images
+
+> Which service should you use to identify and label objects in images, such as cars, trees, and buildings?
+
+**Options:**
+- [ ] A. Text Analytics `This is incorrect because Text Analytics is used for analyzing unstructured text data, not for identifying objects in images.`
+- [ ] B. Language Understanding `This is incorrect because Language Understanding (LUIS) is used for building natural language understanding models, not for identifying objects in images.`
+- [x] C. Custom Vision `This is the correct answer because Custom Vision allows you to train a custom model to identify and label specific objects in images.`
+- [ ] D. Form Recognizer `This is incorrect because Form Recognizer is used for extracting text and data from forms and documents, not for identifying objects in images.`
+
+## Q: Extracting Text from Images
+
+> Which service should you use to extract text from images, such as scanned documents or photos of signs?
+
+**Options:**
+- [ ] A. Text Analytics `This is incorrect because Text Analytics is used for analyzing unstructured text data, not for extracting text from images.`
+- [ ] B. Language Understanding `This is incorrect because Language Understanding (LUIS) is used for building natural language understanding models, not for extracting text from images.`
+- [x] C. Optical Character Recognition (OCR) `This is the correct answer because OCR is used for recognizing and extracting text from images.`
+- [ ] D. Form Recognizer `This is incorrect because Form Recognizer is used for extracting text and data from forms and documents, not for extracting text from images.`
+
+## Q: Analyzing Speech for Keywords
+
+> Which service should you use to analyze spoken language and extract keywords from audio recordings?
+
+**Options:**
+- [ ] A. Text Analytics `This is incorrect because Text Analytics is used for analyzing unstructured text data, not for analyzing spoken language.`
+- [x] B. Speech to Text `This is the correct answer because Speech to Text is used for converting spoken language into text, which can then be analyzed for keywords.`
+- [ ] C. Custom Vision `This is incorrect because Custom Vision is used for image classification and object detection, not for analyzing spoken language.`
+- [ ] D. Form Recognizer `This is incorrect because Form Recognizer is used for extracting text and data from forms and documents, not for analyzing spoken language.`
+
+## Q: Detecting Anomalies in Data
+
+> Which service should you use to detect unusual patterns or anomalies in time-series data?
+
+**Options:**
+- [ ] A. Text Analytics `This is incorrect because Text Analytics is used for analyzing unstructured text data, not for detecting anomalies in time-series data.`
+- [ ] B. Language Understanding `This is incorrect because Language Understanding (LUIS) is used for building natural language understanding models, not for detecting anomalies in time-series data.`
+- [ ] C. Custom Vision `This is incorrect because Custom Vision is used for image classification and object detection, not for detecting anomalies in time-series data.`
+- [x] D. Anomaly Detector `This is the correct answer because Anomaly Detector is used for identifying unusual patterns or anomalies in time-series data.`
+
+## Q: Building Conversational Agents
+
+> Which service should you use to create a chatbot that can understand and respond to user queries in natural language?
+
+**Options:**
+- [ ] A. Text Analytics `This is incorrect because Text Analytics is used for analyzing unstructured text data, not for building conversational agents.`
+- [x] B. Language Understanding `This is the correct answer because Language Understanding (LUIS) is used for building natural language understanding models that can be integrated into chatbots.`
+- [ ] C. Custom Vision `This is incorrect because Custom Vision is used for image classification and object detection, not for building conversational agents.`
+- [ ] D. Form Recognizer `This is incorrect because Form Recognizer is used for extracting text and data from forms and documents, not for building conversational agents.`
+
+## Q: Translating Speech in Real-Time
+
+> Which service should you use to translate spoken language in real-time during a conversation?
+
+**Options:**
+- [ ] A. Text Analytics `This is incorrect because Text Analytics is used for analyzing unstructured text data, not for translating spoken language.`
+- [x] B. Speech Translation `This is the correct answer because Speech Translation is used for translating spoken language in real-time during conversations.`
+- [ ] C. Custom Vision `This is incorrect because Custom Vision is used for image classification and object detection, not for translating spoken language.`
+- [ ] D. Form Recognizer `This is incorrect because Form Recognizer is used for extracting text and data from forms and documents, not for translating spoken language.`
+
+## Q: Choosing the Right Azure Cognitive Service
+
+> You are developing a solution to analyze images from grocery stores and identify various fruits and vegetables. The solution will use a custom model. Which Azure Cognitive Services service should you use?
+
+**Options:**
+- [ ] A. Form Recognizer `This is incorrect because Form Recognizer is used for extracting text and data from forms and documents, not for identifying objects in images.`
+- [ ] B. Face `This is incorrect because the Face service is used for detecting and recognizing human faces, not for identifying objects like fruits and vegetables.`
+- [ ] C. Computer Vision `This is incorrect because while Computer Vision can analyze images, it is not specifically designed for custom object identification.`
+- [x] D. Custom Vision `This is the correct answer because Custom Vision allows you to train a custom model to identify specific objects, such as fruits and vegetables, in images.`
+
+> [!TIP]
+> Custom Model = Custom Vision
+
 ## Q: Identifying AI Services for Document Processing
 
 > Which service should you use to extract key information such as dates, amounts, and vendor names from scanned invoices?
@@ -77,7 +193,6 @@ Last updated: 2025-01-16
 - [ ] B. Object detection `This is incorrect because object detection involves identifying and locating objects within an image, often using bounding boxes, not labeling individual pixels.`
 - [ ] C. Optical character recognition (OCR) `This is incorrect because OCR involves recognizing and extracting text from images, not labeling individual pixels.`
 - [x] D. Semantic segmentation `This is the correct answer because semantic segmentation involves classifying each pixel in an image into a category, such as car, road, or pedestrian.`
-
 
 <div align="center">
   <h3 style="color: #4CAF50;">Total Visitors</h3>
