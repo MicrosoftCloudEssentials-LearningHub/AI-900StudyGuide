@@ -12,6 +12,12 @@ Last updated: 2025-01-16
 > [!NOTE]
 > The questions and answers provided in this study guide are for practice purposes only and are not official practice questions. They are intended to help you prepare for the [AI-900 Microsoft certification exam](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900). For additional preparation materials and the most up-to-date information, please refer to the [official Microsoft documentation](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification).
 
+## Content
+
+- [Artificial Intelligence: Sample Questions and Answers](./0_AI-questions.md)
+- [Machine Learning: Sample Questions and Answers](./1_ML-questions.md)
+- [Computer Vision: Sample Questions and Answers](./2_CV-questions.md)
+
 ## Skills measured
 
 - Describe Artificial Intelligence workloads and considerations
@@ -19,7 +25,6 @@ Last updated: 2025-01-16
 - Describe features of computer vision workloads on Azure
 - Describe features of Natural Language Processing (NLP) workloads on Azure
 - Describe features of generative AI workloads on Azure
-
 
 > [!TIP]
 > Check out [Certification poster](https://arch-center.azureedge.net/Credentials/Certification-Poster-en-us.pdf)
