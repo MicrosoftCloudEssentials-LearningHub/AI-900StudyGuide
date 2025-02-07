@@ -10,11 +10,13 @@ Last updated: 2025-01-16
 ----------
 
 <details>
-<summary><b>List of References </b> (Click to expand)</summary>
+<summary><b>List of References</b> (Click to expand)</summary>
 
-  
+- [Custom Vision documentation - Quickstarts, Tutorials, API Reference](https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/)
+- [What is Custom Vision? - Azure AI services](https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/overview)
+- [Azure AI Custom Vision | Microsoft Azure](https://azure.microsoft.com/en-us/products/ai-services/ai-custom-vision)
+
 </details>
-
 
 ## Q: Identifying AI Services for Sentiment Analysis
 
