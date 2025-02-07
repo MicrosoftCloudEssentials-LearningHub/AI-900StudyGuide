@@ -1,4 +1,4 @@
-# Describe fundamental principles of machine learning on Azure
+# Machine Learning: Sample Questions and Answers
 
 Costa Rica
 
@@ -8,6 +8,11 @@ Costa Rica
 Last updated: 2025-01-16
 
 ----------
+
+>  Describe fundamental principles of machine learning on Azure
+
+> [!NOTE]
+> The questions and answers provided in this study guide are for practice purposes only and are not official practice questions. They are intended to help you prepare for the [AI-900 Microsoft certification exam](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900). For additional preparation materials and the most up-to-date information, please refer to the [official Microsoft documentation](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification).
 
 
 <details>
@@ -25,7 +30,47 @@ Last updated: 2025-01-16
 
 </details>
 
-## Q: Selecting the Appropriate Module in Azure Machine Learning Designer
+<details>
+<summary><b>List of questions/answers </b> (Click to expand)</summary>
+   
+- [Q1: Selecting the Appropriate Module in Azure Machine Learning Designer](#q1-selecting-the-appropriate-module-in-azure-machine-learning-designer)
+- [Q2: Components in Azure Machine Learning Designer](#q2-components-in-azure-machine-learning-designer)
+- [Q3: Evaluating Classification Models](#q3-evaluating-classification-models)
+- [Q4: Evaluating Regression Models](#q4-evaluating-regression-models)
+- [Q5: Evaluating Azure Machine Learning Designer Features](#q5-evaluating-azure-machine-learning-designer-features)
+- [Q6: Identifying Machine Learning Techniques](#q6-identifying-machine-learning-techniques)
+- [Q7: Identifying Machine Learning Techniques](#q7-identifying-machine-learning-techniques)
+- [Q8: Identifying Machine Learning Techniques](#q8-identifying-machine-learning-techniques)
+- [Q9: Deploying a Real-Time Inference Pipeline](#q9-deploying-a-real-time-inference-pipeline)
+- [Q10: Accessing Azure Machine Learning Web Services](#q10-accessing-azure-machine-learning-web-services)
+- [Q11: Publishing an Inference Pipeline](#q11-publishing-an-inference-pipeline)
+- [Q12: Components of an Inference Pipeline](#q12-components-of-an-inference-pipeline)
+- [Q13: Evaluating Machine Learning Concepts](#q13-evaluating-machine-learning-concepts)
+- [Q14: Choosing the Appropriate Machine Learning Model](#q14-choosing-the-appropriate-machine-learning-model)
+- [Q:15 Identifying Features for Predictive Modeling](#q15-identifying-features-for-predictive-modeling)
+- [Q16: Choosing the Appropriate Machine Learning Model](#q16-choosing-the-appropriate-machine-learning-model)
+- [Q17: Identifying Key Terms in Machine Learning](#q17-identifying-key-terms-in-machine-learning)
+- [Q18: Matching Machine Learning Processes with Descriptions](#q18-matching-machine-learning-processes-with-descriptions)
+- [Q19: Steps to Deploy an Azure Machine Learning Model](#q19-steps-to-deploy-an-azure-machine-learning-model)
+- [Q20: Identifying Machine Learning Processes](#q20-identifying-machine-learning-processes)
+- [Q21: Identifying Anomaly Detection Examples](#q21-identifying-anomaly-detection-examples)
+- [Q22: Ensuring Transparency in Automated Machine Learning](#q22-ensuring-transparency-in-automated-machine-learning)
+- [Q23: Understanding Confusion Matrix Metrics](#q23-understanding-confusion-matrix-metrics)
+- [Q24: Splitting Data for Machine Learning](#q24-splitting-data-for-machine-learning)
+- [Q25: Identifying Features and Labels in a Dataset](#q25-identifying-features-and-labels-in-a-dataset)
+- [Q26: Features of Azure Machine Learning Designer](#q26-features-of-azure-machine-learning-designer)
+- [Q27: Understanding Automated Machine Learning Capabilities](#q27-understanding-automated-machine-learning-capabilities)
+- [Q28: Identifying Machine Learning Techniques](#q28-identifying-machine-learning-techniques)
+- [Q29: Importance of Data Splitting in Model Training](#q29-importance-of-data-splitting-in-model-training)
+- [Q30: Choosing Between Basic and Enterprise Workspaces in Azure Machine Learning](#q30-choosing-between-basic-and-enterprise-workspaces-in-azure-machine-learning)
+- [Q31: Identifying Features for Predicting Plant Growth](#q31-identifying-features-for-predicting-plant-growth)
+- [Q32: Identifying Examples of Clustering](#q32-identifying-examples-of-clustering)
+- [Q33: Understanding the Role of a Validation Set](#q33-understanding-the-role-of-a-validation-set)
+
+</details>
+
+
+## Q1: Selecting the Appropriate Module in Azure Machine Learning Designer
 
 > You need to divide an existing dataset into a training set and a validation set. Which module in Azure Machine Learning designer should you use?
 
@@ -35,7 +80,7 @@ Last updated: 2025-01-16
 - [ ] C. Join Data `This is incorrect because Join Data is used to combine datasets based on a common key, not to split them.`
 - [x] D. Split Data `This is the correct answer because Split Data is used to divide the dataset into separate subsets, such as training and validation sets.`
 
-## Q: Components in Azure Machine Learning Designer
+## Q2: Components in Azure Machine Learning Designer
 
 > Which two elements can you add to the canvas in Azure Machine Learning designer?
 
@@ -45,7 +90,7 @@ Last updated: 2025-01-16
 - [x] C. Dataset `This is correct because datasets are essential components that provide the data used for training and evaluating models.`
 - [x] D. Module `This is correct because modules are building blocks that perform specific tasks, such as data preprocessing, model training, and evaluation, and can be added to the canvas.`
 
-## Q: Evaluating Classification Models
+## Q3: Evaluating Classification Models
 
 > Which metric can you use to assess the performance of a classification model?
 
@@ -56,7 +101,7 @@ Last updated: 2025-01-16
 - [x] D. Precision `This is correct because precision measures the proportion of true positive predictions among all positive predictions made by the model.`
 
 
-## Q: Evaluating Regression Models
+## Q4: Evaluating Regression Models
 
 > Which two metrics can you use to assess the performance of a regression model? 
 
@@ -67,7 +112,7 @@ Last updated: 2025-01-16
 - [x] D. Root Mean Squared Error (RMSE) `This is correct because Root Mean Squared Error (RMSE) measures the square root of the average of squared differences between predicted and actual values.`
 - [ ] E. Accuracy `This is incorrect because accuracy is a metric used to evaluate classification models, not regression models.`
 
-## Q: Evaluating Azure Machine Learning Designer Features
+## Q5: Evaluating Azure Machine Learning Designer Features
 
 > Determine whether each of the following statements about Azure Machine Learning designer is true or false.
 
@@ -92,7 +137,7 @@ Last updated: 2025-01-16
    - [ ] Yes
    - [x] No `This is correct because Azure Machine Learning designer can be used for both supervised and unsupervised learning tasks.`
 
-## Q: Identifying Machine Learning Techniques
+## Q6: Identifying Machine Learning Techniques
 
 > Grouping customers into segments based on their purchasing behavior is an example of _________________________.
 
@@ -101,7 +146,7 @@ Last updated: 2025-01-16
 - [x] clustering. `This is the correct answer because clustering is used to group similar data points together based on their features, such as purchasing behavior.`
 - [ ] regression. `This is incorrect because regression is used to predict continuous values, not to group similar data points together.`
 
-## Q: Identifying Machine Learning Techniques
+## Q7: Identifying Machine Learning Techniques
 
 > Categorizing messages as spam or not spam is an example of _________________________.
 
@@ -110,7 +155,7 @@ Last updated: 2025-01-16
 - [ ] regression. `This is incorrect because regression is used to predict continuous values, not to categorize data into predefined classes.`
 - [x] classification. `This is the correct answer because classification is used to categorize data into discrete classes, such as spam or not spam.`
 
-## Q: Identifying Machine Learning Techniques
+## Q8: Identifying Machine Learning Techniques
 
 > Predicting the likelihood that a customer will buy a product based on their browsing history is an example of _________________________.
 
@@ -120,7 +165,7 @@ Last updated: 2025-01-16
 - [x] regression.  `This is the correct answer because regression is used to predict continuous values, such as the likelihood of a customer buying a product.`
 
 
-## Q: Deploying a Real-Time Inference Pipeline
+## Q9: Deploying a Real-Time Inference Pipeline
 
 > To perform real-time inferencing using Azure Machine Learning, where must the model be deployed for others to consume it as a service?
 
@@ -130,7 +175,7 @@ Last updated: 2025-01-16
 - [ ] C. Azure Machine Learning compute `This is incorrect because Azure Machine Learning compute is used for training models, not for deploying real-time inference endpoints.`
 - [x] D. Azure Kubernetes Service (AKS) `This is the correct answer because AKS provides a scalable and reliable environment for deploying real-time inference pipelines as endpoints.`
 
-## Q: Accessing Azure Machine Learning Web Services
+## Q10: Accessing Azure Machine Learning Web Services
 
 > Which two parameters are required to authenticate and access an Azure Machine Learning web service? Each correct answer presents part of the solution.
 
@@ -140,7 +185,7 @@ Last updated: 2025-01-16
 - [x] C. The authentication key `This is the correct answer because the authentication key is required to authenticate and access the web service.`
 - [x] D. The REST endpoint `This is the correct answer because the REST endpoint is the URL used to access the web service.`
 
-## Q: Publishing an Inference Pipeline
+## Q11: Publishing an Inference Pipeline
 
 > What is the purpose of publishing an inference pipeline in Azure Machine Learning?
 
@@ -150,7 +195,7 @@ Last updated: 2025-01-16
 - [ ] C. To preprocess data before training a machine learning model `This is incorrect because publishing an inference pipeline is not related to data preprocessing.`
 - [x] D. To deploy a machine learning model as a web service for real-time predictions `This is the correct answer because publishing an inference pipeline deploys the model as a web service for real-time predictions.`
 
-## Q: Components of an Inference Pipeline
+## Q12: Components of an Inference Pipeline
 
 > Which component is essential for making predictions in an inference pipeline?
 
@@ -160,7 +205,7 @@ Last updated: 2025-01-16
 - [ ] C. Feature selection module `This is incorrect because feature selection is used to choose the most relevant features for training the model. It is part of the model training process, not the prediction process in an inference pipeline.`
 - [x] D. Trained model `This is the correct answer because the trained model is the core component that uses the input data to make predictions in an inference pipeline. Without the trained model, predictions cannot be made.`
 
-## Q: Evaluating Machine Learning Concepts
+## Q13: Evaluating Machine Learning Concepts
 
 > Determine whether each of the following statements is true or false.
 
@@ -182,7 +227,7 @@ Last updated: 2025-01-16
    - [x] True `This is correct as feature engineering involves creating new features from existing data to improve model performance.`
    - [ ] False
 
-## Q: Choosing the Appropriate Machine Learning Model
+## Q14: Choosing the Appropriate Machine Learning Model
 
 > You need to predict the temperature in degrees Celsius for the next week. Which type of machine learning should you use?
 
@@ -191,7 +236,7 @@ Last updated: 2025-01-16
 - [ ] B. Clustering `This is incorrect because clustering models group data into clusters based on similarity, not predict continuous values.`
 - [x] C. Regression `This is the correct answer because regression models predict continuous values, such as temperature.`
 
-## Q: Identifying Features for Predictive Modeling
+## Q:15 Identifying Features for Predictive Modeling
 
 > You have a dataset that contains information about house sales in a city. You need to train a model to predict the price of a house. What should you use as a feature?
 
@@ -201,7 +246,7 @@ Last updated: 2025-01-16
 - [ ] C. The price of individual houses `This is incorrect because the price is the target variable you are trying to predict, not a feature.`
 - [x] D. The size of the house in square feet `This is the correct answer because the size of the house is a relevant feature that can influence its price.`
 
-## Q: Choosing the Appropriate Machine Learning Model
+## Q16: Choosing the Appropriate Machine Learning Model
 
 > Which type of machine learning should you use to categorize customer reviews as positive, neutral, or negative?
 
@@ -210,7 +255,7 @@ Last updated: 2025-01-16
 - [ ] B. Clustering `This is incorrect because clustering models group data into clusters based on similarity, not categorize data into predefined classes.`
 - [x] C. Classification `This is the correct answer because classification models are used to categorize data into discrete classes, such as positive, neutral, or negative reviews.`
 
-## Q: Identifying Key Terms in Machine Learning
+## Q17: Identifying Key Terms in Machine Learning
 
 > Data values that the model aims to predict are called:
 
@@ -220,7 +265,7 @@ Last updated: 2025-01-16
 - [ ] C. Independent variables `This is incorrect.`. This term is often used interchangeably with features. Independent variables are the variables that are manipulated or used to predict the outcome (dependent variable). In the context of machine learning, independent variables are the same as features.
 - [x] D. Labels `This is the correct answer because labels are the output variables that the model aims to predict.`
 
-## Q: Matching Machine Learning Processes with Descriptions
+## Q18: Matching Machine Learning Processes with Descriptions
 
 > Match the machine learning processes to their appropriate descriptions.
 
@@ -245,7 +290,7 @@ Last updated: 2025-01-16
 - [`Model evaluation`] D. Assessing the performance of the trained model using metrics like accuracy and precision. `This is the correct answer because model evaluation involves measuring how well the model performs.`
 - [`Model training`] E. Teaching the model to make predictions based on the training data. `This is the correct answer because model training involves using data to train the model to make accurate predictions.`
 
-## Q: Steps to Deploy an Azure Machine Learning Model
+## Q19: Steps to Deploy an Azure Machine Learning Model
 
 > You plan to deploy an Azure Machine Learning model as a service that will be used by client applications. What are the three processes you should perform in sequence before deploying the model?
 
@@ -272,7 +317,7 @@ graph LR;
     J -->|No| H
 ```
 
-## Q: Identifying Machine Learning Processes
+## Q20: Identifying Machine Learning Processes
 
 > ____________ is used to create new features from raw data to improve the performance of a machine learning model.
 
@@ -289,7 +334,7 @@ graph LR;
 - [`Feature engineering`] D. Feature engineering `This is the correct answer because feature engineering involves creating new features from raw data to improve the performance of a machine learning model.`
 
 
-## Q: Identifying Anomaly Detection Examples
+## Q21: Identifying Anomaly Detection Examples
 
 > Determine whether each of the following scenarios is an example of anomaly detection.
 
@@ -305,7 +350,7 @@ graph LR;
    - [x] Yes `This is correct because detecting fraudulent transactions involves identifying deviations from normal behavior, which is an example of anomaly detection.`
    - [ ] No
 
-## Q: Ensuring Transparency in Automated Machine Learning
+## Q22: Ensuring Transparency in Automated Machine Learning
 
 > When developing a machine learning model through an automated machine learning user interface (UI), what steps should be taken to ensure the model adheres to Microsoft's transparency principle for responsible AI?
 
@@ -315,7 +360,7 @@ graph LR;
 - [ ] C. Set Max concurrent iterations to 0. `This is incorrect because setting the maximum concurrent iterations to 0 does not relate to transparency and would likely hinder the model training process.`
 - [x] D. Enable Explain best model. `This is the correct answer. Enabling the "Explain best model" feature provides insights into how the model makes decisions, which aligns with the transparency principle by making the model's workings understandable.`
 
-## Q: Understanding Confusion Matrix Metrics
+## Q23: Understanding Confusion Matrix Metrics
 
 > You are working on developing a classification model to predict outcomes. The confusion matrix for the model, evaluated on test data, is provided below:
 
@@ -346,7 +391,7 @@ From [What is a confusion matrix?](https://www.nomidl.com/machine-learning/what-
   <img src="https://github.com/user-attachments/assets/037a8dcb-9c68-49ba-b070-e95fc5dea743" alt="Centered Image" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px; width: 500px;"/>
 </div>
 
-## Q: Splitting Data for Machine Learning
+## Q24: Splitting Data for Machine Learning
 
 > In a machine learning process, how should you split your data for training and evaluation to ensure effective model development?
 
@@ -356,7 +401,7 @@ From [What is a confusion matrix?](https://www.nomidl.com/machine-learning/what-
 - [ ] B. Randomly split the data into columns for training and columns for evaluation. `This is incorrect because splitting data by columns would separate features from labels, making it impossible to train the model effectively.`
 - [x] D. Randomly split the data into rows for training and rows for evaluation. `This is the correct answer. Randomly splitting the data into rows ensures that both the training and evaluation sets are representative of the overall dataset, leading to more reliable model performance.`
 
-## Q: Identifying Features and Labels in a Dataset
+## Q25: Identifying Features and Labels in a Dataset
 
 You have the following dataset.
 
@@ -376,7 +421,7 @@ You have the following dataset.
 - [ ] A feature
 - [x] A label.  `This is the correct answer because Insurance Premium Category is the output variable that the model aims to predict, making it a label.`
 
-## Q: Features of Azure Machine Learning Designer
+## Q26: Features of Azure Machine Learning Designer
 
 > Azure Machine Learning designer allows you to create machine learning models by:
 
@@ -386,7 +431,7 @@ You have the following dataset.
 - [ ] C. Using only pre-built models without any customization. `This is incorrect because Azure Machine Learning designer allows for customization and building models from scratch.`
 - [x] D. Adding and connecting modules on a visual canvas. `This is the correct answer because Azure Machine Learning designer enables you to create models by visually adding and connecting modules.`
 
-## Q: Understanding Automated Machine Learning Capabilities
+## Q27: Understanding Automated Machine Learning Capabilities
 
 > Determine whether each of the following statements about automated machine learning (AutoML) is true or false.
 
@@ -402,7 +447,7 @@ You have the following dataset.
    - [ ] Yes
    - [x] No `This is correct because AutoML does not offer a visual interface for connecting datasets and modules; this feature is available in Azure Machine Learning designer.`
 
-## Q: Identifying Machine Learning Techniques
+## Q28: Identifying Machine Learning Techniques
 
 > A hospital uses a large dataset of patient records that are labeled as either `disease present` or `disease not present`. You need to use machine learning to support the early detection of the disease in new patient records before they are reviewed by a doctor. This is an example of which type of machine learning?
 
@@ -411,7 +456,7 @@ You have the following dataset.
 - [ ] B. Regression `This is incorrect because regression is used to predict continuous values, not to categorize data into predefined classes.`
 - [x] C. Classification `This is the correct answer because classification is used to categorize data into predefined classes, such as "disease present" and "disease not present."`
 
-## Q: Importance of Data Splitting in Model Training
+## Q29: Importance of Data Splitting in Model Training
 
 > Why is it important to randomly divide the dataset into separate subsets when training a machine learning model?
 
@@ -420,7 +465,7 @@ You have the following dataset.
 - [ ] B. To train multiple models at the same time for better performance. `This is incorrect because training multiple models simultaneously is not the reason for splitting the dataset.`
 - [x] C. To evaluate the model using data that was not part of the training set. `This is the correct answer because splitting the dataset allows for testing the model on unseen data, providing a more accurate assessment of its performance.`
 
-## Q: Choosing Between Basic and Enterprise Workspaces in Azure Machine Learning
+## Q30: Choosing Between Basic and Enterprise Workspaces in Azure Machine Learning
 
 > You are deciding whether to use a basic workspace or an enterprise workspace in Azure Machine Learning.
 > Which two tasks specifically require an enterprise workspace? Each correct answer presents a complete solution.
@@ -431,7 +476,7 @@ You have the following dataset.
 - [X] C. Utilize a graphical user interface (GUI) to run automated machine learning experiments. `This is correct because running automated machine learning experiments using a GUI requires an enterprise workspace.`
 - [X] D. Use a graphical user interface (GUI) to design and execute machine learning experiments with Azure Machine Learning designer. `This is correct because using the Azure Machine Learning designer's GUI for defining and running experiments requires an enterprise workspace.`
 
-## Q: Identifying Features for Predicting Plant Growth
+## Q31: Identifying Features for Predicting Plant Growth
 
 > You need to predict the growth rate of a plant species using the following dataset.
 
@@ -452,7 +497,7 @@ Which three fields should you use as features? Each correct answer presents a co
 - [x] D. Watering Frequency. `This is correct because Watering Frequency is a relevant feature that can influence plant growth.`
 - [x] E. Sunlight Exposure. `This is correct because Sunlight Exposure is a relevant feature that can influence plant growth.`
 
-## Q: Identifying Examples of Clustering
+## Q32: Identifying Examples of Clustering
 
 > Determine whether each of the following scenarios is an example of clustering.
 
@@ -468,7 +513,7 @@ Which three fields should you use as features? Each correct answer presents a co
    - [ ] Yes
    - [x] No `This is incorrect because predicting the price of a house is an example of regression, not clustering.`
 
-## Q: Understanding the Role of a Validation Set
+## Q33: Understanding the Role of a Validation Set
 
 > Determine whether each of the following statements about a validation set is true or false.
 
