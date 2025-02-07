@@ -17,6 +17,110 @@ Last updated: 2025-01-16
 </details>
 
 
+## Q: Matching AI Workloads with Scenarios
+
+> Match the types of AI workloads to the appropriate scenarios.
+
+**Workload Types:**
+1. Anomaly detection
+2. Computer vision
+3. Knowledge mining
+4. Natural language processing
+
+**Scenarios:**
+1. Identifying fraudulent transactions in a banking system.
+2. Recognizing handwritten text in scanned documents.
+3. Extracting key information from a large collection of research papers.
+
+**Answers:**
+- [`Anomaly detection`] 1. Identifying fraudulent transactions in a banking system. `This is the correct answer because anomaly detection involves identifying unusual patterns that may indicate fraud.`
+- [`Computer vision`] 2. Recognizing handwritten text in scanned documents. `This is the correct answer because computer vision involves interpreting visual data, such as recognizing text in images.`
+- [`Knowledge mining`] 3. Extracting key information from a large collection of research papers. `This is the correct answer because knowledge mining involves sifting through large datasets to find valuable insights.`
+
+## Q: Ensuring Fairness in AI Systems
+
+> AI systems should ensure that decisions are made without bias and do not reflect prejudices from the data sets used to train the systems.
+
+**Options:**
+- [ ] A. Accountability. `This is incorrect because accountability involves ensuring that humans can override AI decisions and take responsibility for outcomes.`
+- [ ] B. Inclusiveness.  `This is incorrect because inclusiveness focuses on making AI accessible to all, including people with disabilities.`
+- [ ] D. Transparency. `This is incorrect because transparency involves making the AI system's decision-making process clear and understandable to users.`
+- [x] D. Fairness. `This is the correct answer because fairness involves ensuring that AI systems treat all people equally and do not reflect biases from the training data.`
+
+## Q: Ensuring Responsible AI Practices
+
+> You are developing an AI-based application. Which two principles should you follow to ensure responsible AI practices? Each correct answer presents part of the solution.
+
+**Options:**
+- [ ] A. Use a waterfall software development methodology. `This is incorrect because the development methodology does not directly relate to responsible AI principles.`
+- [ ] B. Avoid disclosing the use of AI-based algorithms for automated decision making. `This is incorrect because transparency is a key principle of responsible AI, and disclosing the use of AI is important for building trust.`
+- [x] C. Implement a process of AI model validation as part of the software review process. `This is the correct answer because validating AI models ensures they meet ethical and performance standards.`
+- [x] D. Establish a risk governance committee that includes members of the legal team, members of the risk management team, and a privacy officer. `This is the correct answer because having a risk governance committee ensures that AI practices are monitored and comply with legal and ethical standards.`
+
+## Q: Matching Microsoft AI Principles with Descriptions
+
+> Match each Microsoft AI principle with its corresponding description.
+
+**Principles:**
+1. Fairness
+2. Privacy and Security
+3. Reliability and Safety
+4. Transparency
+
+**Descriptions:**
+- [ ] A. The system should ensure that personal data is protected and only accessible to authorized users.
+- [ ] B. The system should operate as intended and be resilient to unexpected conditions.
+- [ ] C. The system should provide clear explanations for its decisions to users.
+- [ ] D. The system should treat all users equally, without bias.
+
+**Answers:**
+- [`Fairness`] D. The system should treat all users equally, without bias. `This is the correct answer because fairness involves ensuring that AI systems do not discriminate against any group.`
+- [`Privacy and Security`] A. The system should ensure that personal data is protected and only accessible to authorized users. `This is the correct answer because privacy and security involve safeguarding user information.`
+- [`Reliability and Safety`] B. The system should operate as intended and be resilient to unexpected conditions. `This is the correct answer because reliability and safety ensure that AI systems are dependable and secure.`
+- [`Transparency`] C. The system should provide clear explanations for its decisions to users. `This is the correct answer because transparency involves making AI systems and their decisions clear to users.`
+
+
+## Q: Identifying Microsoft AI Principles in Scenarios
+
+> Determine whether each of the following scenarios is an example of the Microsoft transparency principle for responsible AI.
+
+**Statements:**
+
+1. Providing users with detailed information on how their data is being used by an AI system.
+   - [x] Yes `This is correct because transparency involves making the AI system's data usage clear and understandable to users.`
+   - [ ] No `This is incorrect because providing detailed information on data usage aligns with the transparency principle.`
+2. Ensuring that an AI system can be overridden by human operators in critical situations.
+   - [ ] Yes `This is incorrect because this scenario aligns with the accountability principle, not transparency.`
+   - [x] No `This is correct because ensuring human override capability is related to accountability, not transparency.`
+3. Designing an AI system to be accessible to users with disabilities.
+   - [ ] Yes `This is incorrect because this scenario aligns with the inclusiveness principle, not transparency.`
+   - [x] No `This is correct because making AI accessible to users with disabilities is related to inclusiveness, not transparency.`
+
+## Q: Microsoft Guiding Principles for Responsible AI
+
+> When you design an AI system to recommend job candidates, the criteria used to make the recommendations should be clear and understandable. This is an example of which Microsoft guiding principle for responsible AI?
+
+**Options:**
+- [ ] A. Inclusiveness `This is incorrect because inclusiveness focuses on making AI accessible to all, including people with disabilities.`
+- [ ] B. Fairness `This is incorrect because fairness involves ensuring that AI systems treat all people equally and avoid biases.`
+- [ ] C. Privacy and Security `This is incorrect because privacy and security involve protecting user data and ensuring it is kept confidential.`
+- [x] D. Transparency `This is the correct answer because transparency involves making the AI system's decision-making process clear and understandable to users.`
+
+
+## Q: Microsoft Guiding Principles for Responsible AI
+
+> What are three Microsoft guiding principles for responsible AI? Each correct answer presents a complete solution.
+
+**Options:**
+
+- [ ] A. Innovation `This is incorrect because innovation, while important, is not one of Microsoft's guiding principles for responsible AI.`
+- [ ] B. Efficiency `This is incorrect because efficiency is not one of Microsoft's guiding principles for responsible AI.`
+- [ ] C. Profitability `This is incorrect because profitability is not one of Microsoft's guiding principles for responsible AI.`
+- [X] D. Inclusiveness `This is the correct answer because inclusiveness focuses on making AI accessible to everyone, including people with disabilities.`
+- [X] E. Fairness `This is the correct answer because fairness involves ensuring that AI systems treat all people equally and avoid biases.`
+- [X] F. Transparency `This is the correct answer because transparency involves making AI systems understandable and their decisions explainable.`
+
+
 ## Q: Identifying AI Techniques for Entity Extraction
 
 > Which AI technique is used to identify and classify specific entities such as names, dates, and locations within text?
@@ -25,7 +129,7 @@ Last updated: 2025-01-16
 - [ ] A. Key phrase extraction `This is incorrect because key phrase extraction identifies important phrases in text, not specific entities like names, dates, and locations.`
 - [ ] B. Language detection `This is incorrect because language detection identifies the language of the text, not specific entities.`
 - [ ] C. Sentiment Analysis `This is incorrect because sentiment analysis determines the sentiment or emotion expressed in the text.`
-- [x] D. Named Entity Recognition (NER) `This is the correct answer because Named Entity Recognition (NER) is used to identify and classify specific entities such as names, dates, and locations within text.`
+- [X] D. Named Entity Recognition (NER) `This is the correct answer because Named Entity Recognition (NER) is used to identify and classify specific entities such as names, dates, and locations within text.`
 
 
 ## Q: Matching AI Workloads with Descriptions
