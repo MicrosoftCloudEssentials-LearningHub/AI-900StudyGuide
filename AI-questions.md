@@ -13,6 +13,9 @@ Last updated: 2025-01-16
 <details>
 <summary><b>List of References </b> (Click to expand)</summary>
 
+- [Microsoft Certified: Azure AI Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/) - Overview of the AI-900 certification, including skills measured and exam details.
+- [Study Guide for Exam AI-900: Microsoft Azure AI Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900) - Detailed study guide with topics covered in the exam and links to additional resources.
+- [Course AI-900T00-A: Microsoft Azure AI Fundamentals](https://learn.microsoft.com/en-us/training/courses/ai-900t00) - Training course that introduces fundamental AI concepts and Azure services used to create AI solutions.
   
 </details>
 
@@ -251,6 +254,66 @@ Last updated: 2025-01-16
 - [ ] B. Increased workload for the customer service agents. `This is incorrect because the purpose of the webchat bot is to reduce the workload by handling routine queries.`
 - [ ] C. Decreased efficiency in handling customer queries. `This is incorrect because the webchat bot is designed to increase efficiency by providing instant responses to common queries.`
 - [X] D. A reduced workload for the customer service agents `This is the correct answer. The webchat bot automates responses to common questions, allowing human agents to focus on more complex issues, thus reducing their overall workload.`
+
+## Q: Identifying AI Workloads
+
+> Which AI workload involves analyzing text to determine the sentiment expressed in customer reviews?
+
+**Options:**
+- [ ] A. Computer vision `Incorrect because computer vision involves analyzing images, not text.`
+- [ ] B. Knowledge mining `Incorrect because knowledge mining involves extracting useful information from large datasets.`
+- [x] C. Natural language processing `Correct because natural language processing involves analyzing text to determine sentiment and other linguistic features.`
+- [ ] D. Anomaly detection `Incorrect because anomaly detection involves identifying unusual patterns in data.`
+
+## Q: Ensuring Inclusiveness in AI Systems
+
+> AI systems should be designed to be accessible to all users, including those with disabilities. This is an example of which Microsoft guiding principle for responsible AI?
+
+**Options:**
+- [ ] A. Fairness `Incorrect because fairness involves ensuring that AI systems treat all people equally and avoid biases.`
+- [ ] B. Transparency `Incorrect because transparency involves making the AI system's decision-making process clear and understandable to users.`
+- [ ] C. Privacy and Security `Incorrect because privacy and security involve protecting user data and ensuring it is kept confidential.`
+- [x] D. Inclusiveness `Correct because inclusiveness focuses on making AI accessible to everyone, including people with disabilities.`
+
+## Q: Matching AI Workloads with Scenarios
+
+> Match the types of AI workloads to the appropriate scenarios.
+
+**Workload Types:**
+1. Anomaly detection
+2. Computer vision
+3. Knowledge mining
+4. Natural language processing
+
+**Scenarios:**
+1. Detecting unusual patterns in credit card transactions to identify potential fraud.
+2. Extracting key insights from a large collection of legal documents.
+3. Analyzing customer feedback to determine overall satisfaction.
+
+**Answers:**
+- [`Anomaly detection`] 1. Detecting unusual patterns in credit card transactions to identify potential fraud. `Anomaly detection involves identifying deviations from normal patterns, such as in fraud detection.`
+- [`Knowledge mining`] 2. Extracting key insights from a large collection of legal documents. `Knowledge mining involves sifting through large datasets to find valuable insights.`
+- [`Natural language processing`] 3. Analyzing customer feedback to determine overall satisfaction. `Natural language processing involves understanding and interpreting human language.`
+
+## Q: Ensuring Accountability in AI Systems
+
+> AI systems should have mechanisms in place to ensure that humans can override AI decisions and take responsibility for outcomes. This is an example of which Microsoft guiding principle for responsible AI?
+
+**Options:**
+- [ ] A. Fairness `Incorrect because fairness involves ensuring that AI systems treat all people equally and avoid biases.`
+- [ ] B. Inclusiveness `Incorrect because inclusiveness focuses on making AI accessible to all, including people with disabilities.`
+- [ ] C. Transparency `Incorrect because transparency involves making the AI system's decision-making process clear and understandable to users.`
+- [x] D. Accountability `Correct because accountability involves ensuring that humans can override AI decisions and take responsibility for outcomes.`
+
+## Q: Identifying AI Techniques for Image Analysis
+
+> Which AI technique is used to identify and label objects within images, such as cars, trees, and buildings?
+
+**Options:**
+- [ ] A. Text Analytics `Incorrect because text analytics is used for analyzing unstructured text data, not for identifying objects in images.`
+- [ ] B. Language Understanding `Incorrect because language understanding is used for building natural language understanding models, not for identifying objects in images.`
+- [x] C. Computer Vision `Correct because computer vision is used to identify and label objects within images.`
+- [ ] D. Form Recognizer `Incorrect because form recognizer is used for extracting text and data from forms and documents, not for identifying objects in images.`
 
 
 <div align="center">
