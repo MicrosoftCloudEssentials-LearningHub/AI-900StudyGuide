@@ -17,6 +17,47 @@ Last updated: 2025-01-16
   
 </details>
 
+## Q: Selecting the Appropriate Module in Azure Machine Learning Designer
+
+> You need to divide an existing dataset into a training set and a validation set. Which module in Azure Machine Learning designer should you use?
+
+**Options:**
+- [ ] A. Select Columns in Dataset `This is incorrect because Select Columns in Dataset is used to choose specific columns from the dataset, not to split it.`
+- [ ] B. Add Rows `This is incorrect because Add Rows is used to append rows to a dataset, not to split it.`
+- [ ] C. Join Data `This is incorrect because Join Data is used to combine datasets based on a common key, not to split them.`
+- [x] D. Split Data `This is the correct answer because Split Data is used to divide the dataset into separate subsets, such as training and validation sets.`
+
+## Q: Components in Azure Machine Learning Designer
+
+> Which two elements can you add to the canvas in Azure Machine Learning designer?
+
+**Options:**
+- [ ] A. Compute instance `This is incorrect because compute instances are used for running experiments and training models, but they are not added to the canvas.`
+- [ ] B. Experiment `This is incorrect because experiments are not individual components added to the canvas; they represent the overall process of running a series of tasks.`
+- [x] C. Dataset `This is correct because datasets are essential components that provide the data used for training and evaluating models.`
+- [x] D. Module `This is correct because modules are building blocks that perform specific tasks, such as data preprocessing, model training, and evaluation, and can be added to the canvas.`
+
+## Q: Evaluating Classification Models
+
+> Which metric can you use to assess the performance of a classification model?
+
+**Options:**
+- [ ] A. Root Mean Squared Error (RMSE) `This is incorrect because Root Mean Squared Error (RMSE) is used to evaluate regression models, not classification models.`
+- [ ] B. Mean Squared Error (MSE) `This is incorrect because Mean Squared Error (MSE) is used to evaluate regression models, not classification models.`
+- [ ] C. Coefficient of Determination (R²) `This is incorrect because the Coefficient of Determination (R²) is used to evaluate regression models, not classification models.`
+- [x] D. Precision `This is correct because precision measures the proportion of true positive predictions among all positive predictions made by the model.`
+
+
+## Q: Evaluating Regression Models
+
+> Which two metrics can you use to assess the performance of a regression model? 
+
+**Options:**
+- [ ] A. Precision `This is incorrect because precision is a metric used to evaluate classification models, not regression models.`
+- [ ] B. F1 score `This is incorrect because the F1 score is a metric used to evaluate classification models, not regression models.`
+- [x] C. Mean Absolute Error (MAE) `This is correct because Mean Absolute Error (MAE) measures the average magnitude of errors in a set of predictions, without considering their direction.`
+- [x] D. Root Mean Squared Error (RMSE) `This is correct because Root Mean Squared Error (RMSE) measures the square root of the average of squared differences between predicted and actual values.`
+- [ ] E. Accuracy `This is incorrect because accuracy is a metric used to evaluate classification models, not regression models.`
 
 ## Q: Evaluating Azure Machine Learning Designer Features
 
@@ -306,6 +347,134 @@ From [What is a confusion matrix?](https://www.nomidl.com/machine-learning/what-
 - [ ] C. Use labels for training and features for evaluation. `This is incorrect because labels are the target outputs that the model aims to predict, and features are the inputs used to train the model.`
 - [ ] B. Randomly split the data into columns for training and columns for evaluation. `This is incorrect because splitting data by columns would separate features from labels, making it impossible to train the model effectively.`
 - [x] D. Randomly split the data into rows for training and rows for evaluation. `This is the correct answer. Randomly splitting the data into rows ensures that both the training and evaluation sets are representative of the overall dataset, leading to more reliable model performance.`
+
+## Q: Identifying Features and Labels in a Dataset
+
+You have the following dataset.
+
+| Age | Zip Code | Insurance Premium Category |
+|-----|----------|----------------------------|
+| 30  | 12345    | Low                        |
+| 45  | 67890    | Medium                     |
+| 60  | 54321    | High                       |
+
+> You are building a model to predict the insurance premium categories of individuals. What are Age and Insurance Premium Category?
+
+**Age:**
+- [x] A feature. `This is the correct answer because Age is an input variable used to make predictions, making it a feature.`
+- [ ] A label
+
+**Insurance Premium Category:**
+- [ ] A feature
+- [x] A label.  `This is the correct answer because Insurance Premium Category is the output variable that the model aims to predict, making it a label.`
+
+## Q: Features of Azure Machine Learning Designer
+
+> Azure Machine Learning designer allows you to create machine learning models by:
+
+**Options:**
+- [ ] A. Writing all code manually without any visual aids. Code first notebook. `This is incorrect because Azure Machine Learning designer offers a visual interface for model building.`
+- [ ] B. Manually selecting and tuning algorithms without any automation. `This is incorrect because Azure Machine Learning designer can automatically select and tune algorithms.`
+- [ ] C. Using only pre-built models without any customization. `This is incorrect because Azure Machine Learning designer allows for customization and building models from scratch.`
+- [x] D. Adding and connecting modules on a visual canvas. `This is the correct answer because Azure Machine Learning designer enables you to create models by visually adding and connecting modules.`
+
+## Q: Understanding Automated Machine Learning Capabilities
+
+> Determine whether each of the following statements about automated machine learning (AutoML) is true or false.
+
+**Statements:**
+
+1. AutoML allows you to integrate custom Python scripts into the training pipeline.
+   - [ ] Yes
+   - [x] No `This is correct because AutoML supports the inclusion of custom Python scripts in the training pipeline.`
+2. AutoML enables you to build machine learning models without requiring programming skills.
+   - [x] Yes `This is correct because AutoML simplifies the process of building machine learning models, making it accessible to users without programming experience.`
+   - [ ] No
+3. AutoML provides a visual interface to connect datasets and modules interactively.
+   - [ ] Yes
+   - [x] No `This is correct because AutoML does not offer a visual interface for connecting datasets and modules; this feature is available in Azure Machine Learning designer.`
+
+## Q: Identifying Machine Learning Techniques
+
+> A hospital uses a large dataset of patient records that are labeled as either `disease present` or `disease not present`. You need to use machine learning to support the early detection of the disease in new patient records before they are reviewed by a doctor. This is an example of which type of machine learning?
+
+**Options:**
+- [ ] A. Clustering `This is incorrect because clustering is used to group similar data points together, not to categorize data into predefined classes.`
+- [ ] B. Regression `This is incorrect because regression is used to predict continuous values, not to categorize data into predefined classes.`
+- [x] C. Classification `This is the correct answer because classification is used to categorize data into predefined classes, such as "disease present" and "disease not present."`
+
+## Q: Importance of Data Splitting in Model Training
+
+> Why is it important to randomly divide the dataset into separate subsets when training a machine learning model?
+
+**Options:**
+- [ ] A. To train the model twice to achieve higher accuracy. `This is incorrect because training the model twice does not necessarily improve accuracy and is not the purpose of data splitting.`
+- [ ] B. To train multiple models at the same time for better performance. `This is incorrect because training multiple models simultaneously is not the reason for splitting the dataset.`
+- [x] C. To evaluate the model using data that was not part of the training set. `This is the correct answer because splitting the dataset allows for testing the model on unseen data, providing a more accurate assessment of its performance.`
+
+## Q: Choosing Between Basic and Enterprise Workspaces in Azure Machine Learning
+
+> You are deciding whether to use a basic workspace or an enterprise workspace in Azure Machine Learning.
+> Which two tasks specifically require an enterprise workspace? Each correct answer presents a complete solution.
+
+**Options:**
+- [ ] A. Set up a compute instance to use as a workstation. `This is incorrect because creating a compute instance can be done in both basic and enterprise workspaces.`
+- [ ] B. Create a dataset from a comma-separated value (CSV) file. `This is incorrect because creating a dataset from a CSV file can be done in both basic and enterprise workspaces.`
+- [X] C. Utilize a graphical user interface (GUI) to run automated machine learning experiments. `This is correct because running automated machine learning experiments using a GUI requires an enterprise workspace.`
+- [X] D. Use a graphical user interface (GUI) to design and execute machine learning experiments with Azure Machine Learning designer. `This is correct because using the Azure Machine Learning designer's GUI for defining and running experiments requires an enterprise workspace.`
+
+## Q: Identifying Features for Predicting Plant Growth
+
+> You need to predict the growth rate of a plant species using the following dataset.
+
+| Plant Species | Soil Type | Watering Frequency | Sunlight Exposure | Growth Rate |
+|---------------|-----------|--------------------|-------------------|-------------|
+| Fern          | Loamy     | Daily              | Partial Shade     | Fast        |
+| Cactus        | Sandy     | Weekly             | Full Sun          | Slow        |
+| Rose          | Clay      | Every Other Day    | Full Sun          | Medium      |
+| Bamboo        | Loamy     | Daily              | Full Sun          | Fast        |
+| Orchid        | Peaty     | Weekly             | Partial Shade     | Slow        |
+
+Which three fields should you use as features? Each correct answer presents a complete solution.
+
+**Options:**
+- [ ] A. Plant Species. `This is incorrect because Plant Species is not a feature used to predict growth rate; it is more of a categorical identifier.`
+- [ ] B. Growth Rate. `This is incorrect because Growth Rate is the target variable you are trying to predict, not a feature.`
+- [x] C. Soil Type. `This is correct because Soil Type is a relevant feature that can influence plant growth.`
+- [x] D. Watering Frequency. `This is correct because Watering Frequency is a relevant feature that can influence plant growth.`
+- [x] E. Sunlight Exposure. `This is correct because Sunlight Exposure is a relevant feature that can influence plant growth.`
+
+## Q: Identifying Examples of Clustering
+
+> Determine whether each of the following scenarios is an example of clustering.
+
+**Statements:**
+
+1. Categorizing news articles into topics such as sports, politics, and technology.
+   - [ ] Yes
+   - [x] No `This is incorrect because categorizing news articles into predefined topics is an example of classification, not clustering.`
+2. Grouping customers based on their purchasing behavior to identify market segments.
+   - [x] Yes `This is correct because grouping customers based on similarities in their purchasing behavior is an example of clustering.`
+   - [ ] No
+3. Predicting the price of a house based on its features such as size, location, and number of bedrooms.
+   - [ ] Yes
+   - [x] No `This is incorrect because predicting the price of a house is an example of regression, not clustering.`
+
+## Q: Understanding the Role of a Validation Set
+
+> Determine whether each of the following statements about a validation set is true or false.
+
+**Statements:**
+
+1. A validation set consists of the input examples used to train a model.
+   - [ ] True
+   - [x] False `This is correct because a validation set is not used for training the model; it is used to evaluate the model's performance.`
+2. A validation set helps assess how accurately a model predicts labels.
+   - [x] True `This is correct because a validation set is used to evaluate the model's predictive accuracy on unseen data.`
+   - [ ] False
+3. A validation set ensures that all training data has been utilized in training the model.
+   - [ ] True
+   - [x] False `This is correct because a validation set is separate from the training data and is not used to verify the usage of all training data.`
 
 
 <div align="center">
