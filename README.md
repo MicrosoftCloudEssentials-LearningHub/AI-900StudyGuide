@@ -11,11 +11,13 @@ Last updated: 2025-01-16
 
 > Centralized hub for preparing for the [AI-900 Microsoft certification](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900). Kindly refer to the [official Microsoft documentation](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification) for additional preparation materials.
 
-<details>
-<summary><b>List of References </b> (Click to expand)</summary>
+## Skills measured
 
-  
-</details>
+- Describe Artificial Intelligence workloads and considerations
+- Describe fundamental principles of machine learning on Azure
+- Describe features of computer vision workloads on Azure
+- Describe features of Natural Language Processing (NLP) workloads on Azure
+- Describe features of generative AI workloads on Azure
 
 <div align="center">
   <h3 style="color: #4CAF50;">Total Visitors</h3>
