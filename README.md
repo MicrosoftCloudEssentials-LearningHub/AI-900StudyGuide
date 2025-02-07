@@ -20,6 +20,15 @@ Last updated: 2025-01-16
 - Describe features of Natural Language Processing (NLP) workloads on Azure
 - Describe features of generative AI workloads on Azure
 
+
+> [!TIP]
+> Check out [Certification poster](https://arch-center.azureedge.net/Credentials/Certification-Poster-en-us.pdf)
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1a24a5f6-51d1-497c-8065-e9a8449145d2" alt="Centered Image" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px; width: 250px;"/>
+</div>
+
+
 <div align="center">
   <h3 style="color: #4CAF50;">Total Visitors</h3>
   <img src="https://profile-counter.glitch.me/brown9804/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
