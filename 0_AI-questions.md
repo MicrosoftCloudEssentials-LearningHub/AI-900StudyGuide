@@ -1,4 +1,4 @@
-# Describe Artificial Intelligence workloads and considerations
+# Artificial Intelligence: Sample Questions and Answers 
 
 Costa Rica
 
@@ -9,6 +9,10 @@ Last updated: 2025-01-16
 
 ----------
 
+> Describe Artificial Intelligence workloads and considerations
+
+> [!NOTE]
+> The questions and answers provided in this study guide are for practice purposes only and are not official practice questions. They are intended to help you prepare for the [AI-900 Microsoft certification exam](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900). For additional preparation materials and the most up-to-date information, please refer to the [official Microsoft documentation](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification).
 
 <details>
 <summary><b>List of References </b> (Click to expand)</summary>
@@ -19,8 +23,34 @@ Last updated: 2025-01-16
   
 </details>
 
+<details>
+<summary><b>List of questions/answers </b> (Click to expand)</summary>
 
-## Q: Matching AI Workloads with Scenarios
+- [Q1: Matching AI Workloads with Scenarios](#q1-matching-ai-workloads-with-scenarios)
+- [Q2: Ensuring Fairness in AI Systems](#q2-ensuring-fairness-in-ai-systems)
+- [Q3: Matching Microsoft AI Principles with Descriptions](#q3-matching-microsoft-ai-principles-with-descriptions)
+- [Q4: Identifying Microsoft AI Principles in Scenarios](#q4-identifying-microsoft-ai-principles-in-scenarios)
+- [Q5: Microsoft Guiding Principles for Responsible AI](#q5-microsoft-guiding-principles-for-responsible-ai)
+- [Q6: Microsoft Guiding Principles for Responsible AI](#q6-microsoft-guiding-principles-for-responsible-ai)
+- [Q7: Identifying AI Techniques for Entity Extraction](#q7-identifying-ai-techniques-for-entity-extraction)
+- [Q8: Matching AI Workloads with Descriptions](#q8-matching-ai-workloads-with-descriptions)
+- [Q9: Ensuring Transparency in AI Systems](#q9-ensuring-transparency-in-ai-systems)
+- [Q10: Ensuring Consistent Operation in AI Systems](#q10-ensuring-consistent-operation-in-ai-systems)
+- [Q11: Matching Microsoft AI Principles with Descriptions](#q11-matching-microsoft-ai-principles-with-descriptions)
+- [Q12: Identifying Microsoft AI Principles](#q12-identifying-microsoft-ai-principles)
+- [Q13: Matching AI Workloads with Descriptions](#q13-matching-ai-workloads-with-descriptions)
+- [Q14: Identifying the business benefit](#q14-identifying-the-business-benefit)
+- [Q15: Identifying AI Workloads](#q15-identifying-ai-workloads)
+- [Q16: Ensuring Inclusiveness in AI Systems](#q16-ensuring-inclusiveness-in-ai-systems)
+- [Q17: Matching AI Workloads with Scenarios](#q17-matching-ai-workloads-with-scenarios)
+- [Q18: Ensuring Accountability in AI Systems](#q18-ensuring-accountability-in-ai-systems)
+- [Q19: Identifying AI Techniques for Image Analysis](#q19-identifying-ai-techniques-for-image-analysis)
+- [Q20: Ensuring Responsible AI Practices](#q20-ensuring-responsible-ai-practices)
+
+</details>
+
+
+## Q1: Matching AI Workloads with Scenarios
 
 > Match the types of AI workloads to the appropriate scenarios.
 
@@ -40,7 +70,7 @@ Last updated: 2025-01-16
 - [`Computer vision`] 2. Recognizing handwritten text in scanned documents. `This is the correct answer because computer vision involves interpreting visual data, such as recognizing text in images.`
 - [`Knowledge mining`] 3. Extracting key information from a large collection of research papers. `This is the correct answer because knowledge mining involves sifting through large datasets to find valuable insights.`
 
-## Q: Ensuring Fairness in AI Systems
+## Q2: Ensuring Fairness in AI Systems
 
 > AI systems should ensure that decisions are made without bias and do not reflect prejudices from the data sets used to train the systems.
 
@@ -50,17 +80,7 @@ Last updated: 2025-01-16
 - [ ] D. Transparency. `This is incorrect because transparency involves making the AI system's decision-making process clear and understandable to users.`
 - [x] D. Fairness. `This is the correct answer because fairness involves ensuring that AI systems treat all people equally and do not reflect biases from the training data.`
 
-## Q: Ensuring Responsible AI Practices
-
-> You are developing an AI-based application. Which two principles should you follow to ensure responsible AI practices? Each correct answer presents part of the solution.
-
-**Options:**
-- [ ] A. Use a waterfall software development methodology. `This is incorrect because the development methodology does not directly relate to responsible AI principles.`
-- [ ] B. Avoid disclosing the use of AI-based algorithms for automated decision making. `This is incorrect because transparency is a key principle of responsible AI, and disclosing the use of AI is important for building trust.`
-- [x] C. Implement a process of AI model validation as part of the software review process. `This is the correct answer because validating AI models ensures they meet ethical and performance standards.`
-- [x] D. Establish a risk governance committee that includes members of the legal team, members of the risk management team, and a privacy officer. `This is the correct answer because having a risk governance committee ensures that AI practices are monitored and comply with legal and ethical standards.`
-
-## Q: Matching Microsoft AI Principles with Descriptions
+## Q3: Matching Microsoft AI Principles with Descriptions
 
 > Match each Microsoft AI principle with its corresponding description.
 
@@ -83,7 +103,7 @@ Last updated: 2025-01-16
 - [`Transparency`] C. The system should provide clear explanations for its decisions to users. `This is the correct answer because transparency involves making AI systems and their decisions clear to users.`
 
 
-## Q: Identifying Microsoft AI Principles in Scenarios
+## Q4: Identifying Microsoft AI Principles in Scenarios
 
 > Determine whether each of the following scenarios is an example of the Microsoft transparency principle for responsible AI.
 
@@ -99,7 +119,7 @@ Last updated: 2025-01-16
    - [ ] Yes `This is incorrect because this scenario aligns with the inclusiveness principle, not transparency.`
    - [x] No `This is correct because making AI accessible to users with disabilities is related to inclusiveness, not transparency.`
 
-## Q: Microsoft Guiding Principles for Responsible AI
+## Q5: Microsoft Guiding Principles for Responsible AI
 
 > When you design an AI system to recommend job candidates, the criteria used to make the recommendations should be clear and understandable. This is an example of which Microsoft guiding principle for responsible AI?
 
@@ -110,7 +130,7 @@ Last updated: 2025-01-16
 - [x] D. Transparency `This is the correct answer because transparency involves making the AI system's decision-making process clear and understandable to users.`
 
 
-## Q: Microsoft Guiding Principles for Responsible AI
+## Q6: Microsoft Guiding Principles for Responsible AI
 
 > What are three Microsoft guiding principles for responsible AI? Each correct answer presents a complete solution.
 
@@ -124,7 +144,7 @@ Last updated: 2025-01-16
 - [X] F. Transparency `This is the correct answer because transparency involves making AI systems understandable and their decisions explainable.`
 
 
-## Q: Identifying AI Techniques for Entity Extraction
+## Q7: Identifying AI Techniques for Entity Extraction
 
 > Which AI technique is used to identify and classify specific entities such as names, dates, and locations within text?
 
@@ -135,7 +155,7 @@ Last updated: 2025-01-16
 - [X] D. Named Entity Recognition (NER) `This is the correct answer because Named Entity Recognition (NER) is used to identify and classify specific entities such as names, dates, and locations within text.`
 
 
-## Q: Matching AI Workloads with Descriptions
+## Q8: Matching AI Workloads with Descriptions
 
 > Match each AI workload type with its corresponding description.
 
@@ -157,7 +177,7 @@ Last updated: 2025-01-16
 - [`Machine Learning (Classification)`] D. Classifying emails as spam or not spam. `This is the correct answer because classification involves categorizing data into predefined classes.`
 - [`Natural language processing`] A. Detecting spam emails based on their content. `This is the correct answer because natural language processing involves understanding and interpreting human language.`
 
-## Q: Ensuring Transparency in AI Systems
+## Q9: Ensuring Transparency in AI Systems
 
 > You are building an AI system. Which task should you include to ensure that the service meets the Microsoft transparency principle for responsible AI?
 
@@ -174,7 +194,7 @@ Last updated: 2025-01-16
 - [`Usability`] D. Provide training for users on how to interact with the AI system. `This is incorrect because providing user training is related to usability, not transparency.`
 
 
-## Q: Ensuring Consistent Operation in AI Systems
+## Q10: Ensuring Consistent Operation in AI Systems
 
 > When developing an AI system for medical diagnosis, the Microsoft __________ principle for responsible AI should be applied to ensure the system operates reliably and safely under various conditions.
 
@@ -185,7 +205,7 @@ Last updated: 2025-01-16
 - [x] D. Reliability and Safety `This is the correct answer because reliability and safety ensure that AI systems operate as intended and can handle unexpected conditions without causing harm.`
 
 
-## Q: Matching Microsoft AI Principles with Descriptions
+## Q11: Matching Microsoft AI Principles with Descriptions
 
 > Match each Microsoft AI principle with its corresponding description.
 
@@ -210,7 +230,7 @@ Last updated: 2025-01-16
 - [`Reliability and Safety`] D. Designing AI systems to work as intended and resist harmful manipulation. `This is the correct answer because reliability and safety ensure that AI systems are dependable and secure.`
 - [`Transparency`] A. Ensuring that AI systems are understandable and their decisions can be explained. `This is the correct answer because transparency involves making AI systems and their decisions clear to users.`
 
-## Q: Identifying Microsoft AI Principles
+## Q12: Identifying Microsoft AI Principles
 
 > You are designing an AI system that ensures data privacy and protects user information. This is an example of which Microsoft guiding principle for responsible AI?
 
@@ -220,7 +240,7 @@ Last updated: 2025-01-16
 - [ ] C. Reliability and Safety `This is incorrect because reliability and safety focus on ensuring that AI systems work as intended and minimize risks.`
 - [x] D. Privacy and Security `This is the correct answer because privacy and security involve protecting user data and ensuring that information is kept confidential.`
 
-## Q: Matching AI Workloads with Descriptions
+## Q13: Matching AI Workloads with Descriptions
 
 > Match each AI workload type with its corresponding description.
 
@@ -245,7 +265,7 @@ Last updated: 2025-01-16
  - [`Knowledge mining`] C. Extracting useful information from large datasets to answer specific questions. `This is the correct answer because knowledge mining involves sifting through data to find valuable insights.`
  - [`Natural language processing`] A. Analyzing text to determine the sentiment of customer reviews. `This is the correct answer because natural language processing involves understanding and interpreting human language.`
 
-## Q: Identifying the business benefit
+## Q14: Identifying the business benefit
 
 > A company hires customer service agents to handle phone and email support. They create a webchat bot to answer common questions automatically. What benefits should they expect from this webchat bot?
 
@@ -255,7 +275,7 @@ Last updated: 2025-01-16
 - [ ] C. Decreased efficiency in handling customer queries. `This is incorrect because the webchat bot is designed to increase efficiency by providing instant responses to common queries.`
 - [X] D. A reduced workload for the customer service agents `This is the correct answer. The webchat bot automates responses to common questions, allowing human agents to focus on more complex issues, thus reducing their overall workload.`
 
-## Q: Identifying AI Workloads
+## Q15: Identifying AI Workloads
 
 > Which AI workload involves analyzing text to determine the sentiment expressed in customer reviews?
 
@@ -265,7 +285,7 @@ Last updated: 2025-01-16
 - [x] C. Natural language processing `Correct because natural language processing involves analyzing text to determine sentiment and other linguistic features.`
 - [ ] D. Anomaly detection `Incorrect because anomaly detection involves identifying unusual patterns in data.`
 
-## Q: Ensuring Inclusiveness in AI Systems
+## Q16: Ensuring Inclusiveness in AI Systems
 
 > AI systems should be designed to be accessible to all users, including those with disabilities. This is an example of which Microsoft guiding principle for responsible AI?
 
@@ -275,7 +295,7 @@ Last updated: 2025-01-16
 - [ ] C. Privacy and Security `Incorrect because privacy and security involve protecting user data and ensuring it is kept confidential.`
 - [x] D. Inclusiveness `Correct because inclusiveness focuses on making AI accessible to everyone, including people with disabilities.`
 
-## Q: Matching AI Workloads with Scenarios
+## Q17: Matching AI Workloads with Scenarios
 
 > Match the types of AI workloads to the appropriate scenarios.
 
@@ -295,7 +315,7 @@ Last updated: 2025-01-16
 - [`Knowledge mining`] 2. Extracting key insights from a large collection of legal documents. `Knowledge mining involves sifting through large datasets to find valuable insights.`
 - [`Natural language processing`] 3. Analyzing customer feedback to determine overall satisfaction. `Natural language processing involves understanding and interpreting human language.`
 
-## Q: Ensuring Accountability in AI Systems
+## Q18: Ensuring Accountability in AI Systems
 
 > AI systems should have mechanisms in place to ensure that humans can override AI decisions and take responsibility for outcomes. This is an example of which Microsoft guiding principle for responsible AI?
 
@@ -305,7 +325,7 @@ Last updated: 2025-01-16
 - [ ] C. Transparency `Incorrect because transparency involves making the AI system's decision-making process clear and understandable to users.`
 - [x] D. Accountability `Correct because accountability involves ensuring that humans can override AI decisions and take responsibility for outcomes.`
 
-## Q: Identifying AI Techniques for Image Analysis
+## Q19: Identifying AI Techniques for Image Analysis
 
 > Which AI technique is used to identify and label objects within images, such as cars, trees, and buildings?
 
@@ -314,6 +334,16 @@ Last updated: 2025-01-16
 - [ ] B. Language Understanding `Incorrect because language understanding is used for building natural language understanding models, not for identifying objects in images.`
 - [x] C. Computer Vision `Correct because computer vision is used to identify and label objects within images.`
 - [ ] D. Form Recognizer `Incorrect because form recognizer is used for extracting text and data from forms and documents, not for identifying objects in images.`
+
+## Q20: Ensuring Responsible AI Practices
+
+> You are developing an AI-based application. Which two principles should you follow to ensure responsible AI practices? Each correct answer presents part of the solution.
+
+**Options:**
+- [ ] A. Use a waterfall software development methodology. `This is incorrect because the development methodology does not directly relate to responsible AI principles.`
+- [ ] B. Avoid disclosing the use of AI-based algorithms for automated decision making. `This is incorrect because transparency is a key principle of responsible AI, and disclosing the use of AI is important for building trust.`
+- [x] C. Implement a process of AI model validation as part of the software review process. `This is the correct answer because validating AI models ensures they meet ethical and performance standards.`
+- [x] D. Establish a risk governance committee that includes members of the legal team, members of the risk management team, and a privacy officer. `This is the correct answer because having a risk governance committee ensures that AI practices are monitored and comply with legal and ethical standards.`
 
 
 <div align="center">
