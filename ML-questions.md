@@ -18,6 +18,227 @@ Last updated: 2025-01-16
 </details>
 
 
+## Q: Evaluating Azure Machine Learning Designer Features
+
+> Determine whether each of the following statements about Azure Machine Learning designer is true or false.
+
+**Statements:**
+
+1. Azure Machine Learning designer offers a visual interface where you can drag and drop components to create, test, and deploy machine learning models.
+   - [x] Yes `This is correct because Azure Machine Learning designer provides a visual canvas for building, testing, and deploying models using drag-and-drop functionality.`
+   - [ ] No
+2. You can save your work as a draft pipeline in Azure Machine Learning designer to continue working on it later.
+   - [x] Yes `This is correct because you can save your progress as a pipeline draft and resume your work at a later time.`
+   - [ ] No
+3. Azure Machine Learning designer allows you to integrate custom JavaScript functions into your pipelines.
+   - [ ] Yes
+   - [x] No `This is correct because Azure Machine Learning designer does not support the inclusion of custom JavaScript functions.`
+4. Azure Machine Learning designer supports integration with Azure DevOps for continuous integration and deployment.
+   - [x] Yes `This is correct because Azure Machine Learning designer can be integrated with Azure DevOps for CI/CD pipelines.`
+   - [ ] No
+5. Automated machine learning (AutoML) capabilities are available in Azure Machine Learning designer for model training.
+   - [x] Yes `This is correct because Azure Machine Learning designer includes AutoML features to automate the model training process.`
+   - [ ] No
+6. Azure Machine Learning designer is limited to supervised learning tasks only.
+   - [ ] Yes
+   - [x] No `This is correct because Azure Machine Learning designer can be used for both supervised and unsupervised learning tasks.`
+
+## Q: Identifying Machine Learning Techniques
+
+> Grouping customers into segments based on their purchasing behavior is an example of _________________________.
+
+**Options:**
+- [ ] classification. `This is incorrect because classification is used to categorize data into discrete classes, not to group similar data points together.`
+- [x] clustering. `This is the correct answer because clustering is used to group similar data points together based on their features, such as purchasing behavior.`
+- [ ] regression. `This is incorrect because regression is used to predict continuous values, not to group similar data points together.`
+
+## Q: Identifying Machine Learning Techniques
+
+> Categorizing messages as spam or not spam is an example of _________________________.
+
+**Options:**
+- [ ] clustering. `This is incorrect because clustering is used to group similar data points together, not to categorize data into predefined classes.`
+- [ ] regression. `This is incorrect because regression is used to predict continuous values, not to categorize data into predefined classes.`
+- [x] classification. `This is the correct answer because classification is used to categorize data into discrete classes, such as spam or not spam.`
+
+## Q: Identifying Machine Learning Techniques
+
+> Predicting the likelihood that a customer will buy a product based on their browsing history is an example of _________________________.
+
+**Options:**
+- [ ] classification. `This is incorrect because classification is used to categorize data into discrete classes, not to predict continuous values.`
+- [ ] clustering. `This is incorrect because clustering is used to group similar data points together, not to predict continuous values.`
+- [x] regression.  `This is the correct answer because regression is used to predict continuous values, such as the likelihood of a customer buying a product.`
+
+
+## Q: Deploying a Real-Time Inference Pipeline
+
+> To perform real-time inferencing using Azure Machine Learning, where must the model be deployed for others to consume it as a service?
+
+**Options:**
+- [ ] A. A local web service `This is incorrect because a local web service is not suitable for scalable, real-time inferencing in a production environment.`
+- [ ] B. Azure Container Instances `This is incorrect because Azure Container Instances are more suitable for development and testing, not for scalable, real-time inferencing.`
+- [ ] C. Azure Machine Learning compute `This is incorrect because Azure Machine Learning compute is used for training models, not for deploying real-time inference endpoints.`
+- [x] D. Azure Kubernetes Service (AKS) `This is the correct answer because AKS provides a scalable and reliable environment for deploying real-time inference pipelines as endpoints.`
+
+## Q: Accessing Azure Machine Learning Web Services
+
+> Which two parameters are required to authenticate and access an Azure Machine Learning web service? Each correct answer presents part of the solution.
+
+**Options:**
+- [ ] A. The model name `This is incorrect because the model name is not required to access the web service.`
+- [ ] B. The training endpoint `This is incorrect because the training endpoint is used for training models, not for accessing the web service.`
+- [x] C. The authentication key `This is the correct answer because the authentication key is required to authenticate and access the web service.`
+- [x] D. The REST endpoint `This is the correct answer because the REST endpoint is the URL used to access the web service.`
+
+## Q: Publishing an Inference Pipeline
+
+> What is the purpose of publishing an inference pipeline in Azure Machine Learning?
+
+**Options:**
+- [ ] A. To train a new machine learning model `This is incorrect because publishing an inference pipeline is not related to training a new model.`
+- [ ] B. To evaluate the performance of a machine learning model `This is incorrect because publishing an inference pipeline is not related to evaluating model performance.`
+- [ ] C. To preprocess data before training a machine learning model `This is incorrect because publishing an inference pipeline is not related to data preprocessing.`
+- [x] D. To deploy a machine learning model as a web service for real-time predictions `This is the correct answer because publishing an inference pipeline deploys the model as a web service for real-time predictions.`
+
+## Q: Components of an Inference Pipeline
+
+> Which component is essential for making predictions in an inference pipeline?
+
+**Options:**
+- [ ] A. Data preprocessing module `This is incorrect because data preprocessing is used to clean and prepare the data before training the model. While important for model training, it is not directly involved in making predictions once the model is deployed.`
+- [ ] B. Data visualization module `This is incorrect because data visualization is used to present data and model results in a visual format. It is not involved in the prediction process itself.`
+- [ ] C. Feature selection module `This is incorrect because feature selection is used to choose the most relevant features for training the model. It is part of the model training process, not the prediction process in an inference pipeline.`
+- [x] D. Trained model `This is the correct answer because the trained model is the core component that uses the input data to make predictions in an inference pipeline. Without the trained model, predictions cannot be made.`
+
+## Q: Evaluating Machine Learning Concepts
+
+> Determine whether each of the following statements is true or false.
+
+**Statements:**
+
+1. Tagging training data with known values is called labeling.
+   - [X] True. `Labeling is indeed the process of tagging training data with known values`
+   - [ ] False 
+2. You should evaluate a model using the same data that was used to train the model.
+   - [ ] True
+   - [x] False `This is correct because evaluating a model using the same data used for training can lead to overfitting and does not provide an accurate measure of model performance.`
+3. Accuracy is always the primary metric used to measure a model's performance.
+   - [ ] True
+   - [x] False `This is correct because the primary metric used to measure a model's performance depends on the specific problem and context. Other metrics like precision, recall, and F1-score may be more appropriate in certain cases.`
+4. Splitting data into training and test sets helps to evaluate the model's performance on unseen data.
+   - [x] True `This is correct because splitting data into training and test sets allows for evaluating the model's performance on data it has not seen during training, providing a more accurate assessment.`
+   - [ ] False
+5. Feature engineering involves creating new features from existing data to improve model performance.
+   - [x] True `This is correct as feature engineering involves creating new features from existing data to improve model performance.`
+   - [ ] False
+
+## Q: Choosing the Appropriate Machine Learning Model
+
+> You need to predict the temperature in degrees Celsius for the next week. Which type of machine learning should you use?
+
+**Options:**
+- [ ] A. Classification `This is incorrect because classification models categorize data into discrete classes, not continuous values.`
+- [ ] B. Clustering `This is incorrect because clustering models group data into clusters based on similarity, not predict continuous values.`
+- [x] C. Regression `This is the correct answer because regression models predict continuous values, such as temperature.`
+
+## Q: Identifying Features for Predictive Modeling
+
+> You have a dataset that contains information about house sales in a city. You need to train a model to predict the price of a house. What should you use as a feature?
+
+**Options:**
+- [ ] A. The number of houses sold in the dataset `This is incorrect because the number of houses sold is not directly related to predicting the price of an individual house.`
+- [ ] B. The house ID `This is incorrect because the house ID is a unique identifier and does not provide useful information for predicting the price.`
+- [ ] C. The price of individual houses `This is incorrect because the price is the target variable you are trying to predict, not a feature.`
+- [x] D. The size of the house in square feet `This is the correct answer because the size of the house is a relevant feature that can influence its price.`
+
+## Q: Choosing the Appropriate Machine Learning Model
+
+> Which type of machine learning should you use to categorize customer reviews as positive, neutral, or negative?
+
+**Options:**
+- [ ] A. Regression `This is incorrect because regression models predict continuous values, not discrete categories.`
+- [ ] B. Clustering `This is incorrect because clustering models group data into clusters based on similarity, not categorize data into predefined classes.`
+- [x] C. Classification `This is the correct answer because classification models are used to categorize data into discrete classes, such as positive, neutral, or negative reviews.`
+
+## Q: Identifying Key Terms in Machine Learning
+
+> Data values that the model aims to predict are called:
+
+**Options:**
+- [ ] A. Features `This is incorrect because features are the input variables used to make predictions.`. They are the measurable properties or characteristics of the data. For example, in a dataset predicting house prices, features might include the size of the house, the number of bedrooms, and the location.
+- [ ] B. Identifiers `This is incorrect because identifiers are unique values used to distinguish different records.`
+- [ ] C. Independent variables `This is incorrect.`. This term is often used interchangeably with features. Independent variables are the variables that are manipulated or used to predict the outcome (dependent variable). In the context of machine learning, independent variables are the same as features.
+- [x] D. Labels `This is the correct answer because labels are the output variables that the model aims to predict.`
+
+## Q: Matching Machine Learning Processes with Descriptions
+
+> Match the machine learning processes to their appropriate descriptions.
+
+**Learning Types:**
+1. Data preprocessing
+2. Model evaluation
+3. Model deployment
+4. Feature engineering
+5. Model training
+
+**Descriptions:**
+- [ ] A. Cleaning and organizing raw data to make it suitable for training.
+- [ ] B. Creating new features from existing data to improve model performance.
+- [ ] C. Using the trained model to make predictions on new data.
+- [ ] D. Assessing the performance of the trained model using metrics like accuracy and precision.
+- [ ] E. Teaching the model to make predictions based on the training data.
+
+**Answers:**
+- [`Data preprocessing`] A. Cleaning and organizing raw data to make it suitable for training. `This is the correct answer because data preprocessing involves preparing raw data for use in training.`
+- [`Feature engineering`] B. Creating new features from existing data to improve model performance. `This is the correct answer because feature engineering involves generating new features to enhance model accuracy.`
+- [`Model deployment`] C. Using the trained model to make predictions on new data. `This is the correct answer because model deployment involves putting the trained model into production to make real-time predictions.`
+- [`Model evaluation`] D. Assessing the performance of the trained model using metrics like accuracy and precision. `This is the correct answer because model evaluation involves measuring how well the model performs.`
+- [`Model training`] E. Teaching the model to make predictions based on the training data. `This is the correct answer because model training involves using data to train the model to make accurate predictions.`
+
+## Q: Steps to Deploy an Azure Machine Learning Model
+
+> You plan to deploy an Azure Machine Learning model as a service that will be used by client applications. What are the three processes you should perform in sequence before deploying the model?
+
+**Options:**
+- [ ] A. Data Encryption `This is not a necessary step before deploying the model, although it is important for data security.`
+- [ ] B. Model Retraining `This is not a necessary step before the initial deployment of the model.`
+- [x] C. Data Preparation `This is the correct answer because it involves cleaning and organizing the data to ensure it is suitable for training the model.`
+- [x] D. Model Training `This is the correct answer because it involves using the prepared data to train the machine learning model.`
+- [x] E. Model Evaluation `This is the correct answer because it involves evaluating the model to ensure it meets the desired performance criteria before deployment.`
+
+```mermaid
+graph LR;
+    A[Data Collection] --> B[Data Preparation]
+    B --> C[Feature Engineering]
+    C --> D[Model Training]
+    D --> E[Model Evaluation]
+    E --> F{Is Model Satisfactory?}
+    F -->|Yes| G[Model Deployment]
+    F -->|No| H[Model Tuning]
+    H --> C
+    G --> I[Model Monitoring]
+    I --> J{Performance Acceptable?}
+    J -->|Yes| I
+    J -->|No| H
+```
+
+## Q: Identifying Machine Learning Processes
+
+> ____________ is used to create new features from raw data to improve the performance of a machine learning model.
+
+**Options:**
+- [ ] A. Data preprocessing
+- [ ] B. Model training
+- [ ] C. Model evaluation
+- [x] D. Feature engineering
+
+**Answers:**
+- [`Data preprocessing`] A. Data preprocessing `This is incorrect because data preprocessing involves cleaning and preparing the data, not creating new features.`
+- [`Model training`] B. Model training `This is incorrect because model training involves teaching the model to make predictions based on the data, not creating new features.`
+- [`Model evaluation`] C. Model evaluation `This is incorrect because model evaluation involves assessing the performance of the trained model, not creating new features.`
+- [`Feature engineering`] D. Feature engineering `This is the correct answer because feature engineering involves creating new features from raw data to improve the performance of a machine learning model.`
+
 
 ## Q: Identifying Anomaly Detection Examples
 
