@@ -5,7 +5,7 @@ Costa Rica
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-Last updated: 2025-01-16
+Last updated: 2025-07-16
 
 ----------
 
@@ -345,8 +345,9 @@ Last updated: 2025-01-16
 - [x] C. Implement a process of AI model validation as part of the software review process. `This is the correct answer because validating AI models ensures they meet ethical and performance standards.`
 - [x] D. Establish a risk governance committee that includes members of the legal team, members of the risk management team, and a privacy officer. `This is the correct answer because having a risk governance committee ensures that AI practices are monitored and comply with legal and ethical standards.`
 
-
+<!-- START BADGE -->
 <div align="center">
-  <h3 style="color: #4CAF50;">Total Visitors</h3>
-  <img src="https://profile-counter.glitch.me/brown9804/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+  <img src="https://img.shields.io/badge/Total%20views-996-limegreen" alt="Total views">
+  <p>Refresh Date: 2025-07-16</p>
 </div>
+<!-- END BADGE -->
