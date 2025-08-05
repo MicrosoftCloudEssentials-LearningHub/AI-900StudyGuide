@@ -70,6 +70,140 @@ Last updated: 2025-07-16
 </details>
 
 
+> [!TIP]
+> **Core Machine Learning Types:**
+
+| Type | Description | Use Cases | Azure Services |
+|------|-------------|-----------|----------------|
+| **Supervised Learning** | Learning with labeled data | Classification, regression | Azure ML Designer, AutoML |
+| **Unsupervised Learning** | Finding patterns in unlabeled data | Clustering, anomaly detection | Azure ML, Cognitive Services |
+| **Reinforcement Learning** | Learning through trial and error | Game AI, robotics | Azure ML, Cognitive Services |
+
+> [!TIP]
+> **Azure Machine Learning Studio Components:**
+
+| Component | Purpose | Key Features |
+|-----------|---------|--------------|
+| **Designer** | Visual ML workflow creation | Drag-and-drop interface, pre-built modules |
+| **AutoML** | Automated model selection | No-code ML, automatic feature engineering |
+| **Notebooks** | Code-first development | Jupyter notebooks, collaborative development |
+| **Datasets** | Data management | Version control, data lineage |
+| **Experiments** | Track ML runs | Metrics logging, model comparison |
+| **Models** | Model registry | Version management, deployment |
+| **Endpoints** | Model deployment | Real-time and batch inference |
+
+> [!TIP]
+> **Model Evaluation Metrics:**
+
+| Model Type | Primary Metrics | When to Use |
+|------------|-----------------|-------------|
+| **Classification** | Accuracy, Precision, Recall, F1-Score | Spam detection, image recognition |
+| **Regression** | MAE, MSE, RMSE, R-squared | Price prediction, forecasting |
+| **Clustering** | Silhouette Score, Inertia | Customer segmentation, data exploration |
+
+> [!TIP]
+> **Data Preparation Best Practices:**
+
+| Process | Description | Implementation |
+|---------|-------------|----------------|
+| **Data Cleaning** | Remove inconsistencies and errors | Handle missing values, outliers |
+| **Feature Engineering** | Create meaningful features | Combine variables, normalize data |
+| **Data Splitting** | Divide data for training/testing | 70-30 or 80-20 split ratios |
+| **Feature Selection** | Choose relevant features | Correlation analysis, domain knowledge |
+
+> [!TIP]
+> **Azure ML Designer Modules:**
+
+| Module Category | Key Modules | Purpose |
+|-----------------|-------------|---------|
+| **Data Input/Output** | Import Data, Export Data | Connect to data sources |
+| **Data Transformation** | Select Columns, Clean Missing Data | Prepare data for training |
+| **Machine Learning** | Train Model, Score Model | Build and evaluate models |
+| **Model Evaluation** | Evaluate Model, Cross Validate | Assess model performance |
+
+> [!TIP]
+> **Model Deployment Options:**
+
+| Deployment Type | Use Case | Azure Service |
+|-----------------|----------|---------------|
+| **Real-time Inference** | Interactive applications | Azure Container Instances, AKS |
+| **Batch Inference** | Bulk data processing | Azure Machine Learning Compute |
+| **Edge Deployment** | IoT and offline scenarios | Azure IoT Edge |
+
+> [!TIP]
+> **Common ML Algorithms and Use Cases:**
+
+| Algorithm | Type | Best For | Example |
+|-----------|------|----------|---------|
+| **Linear Regression** | Regression | Continuous predictions | House price prediction |
+| **Logistic Regression** | Classification | Binary classification | Email spam detection |
+| **Decision Trees** | Both | Interpretable models | Medical diagnosis |
+| **Random Forest** | Both | High accuracy | Feature importance |
+| **K-Means** | Clustering | Customer segmentation | Market analysis |
+| **Neural Networks** | Both | Complex patterns | Image recognition |
+
+> [!TIP]
+> **Responsible AI in Machine Learning:**
+
+| Principle | Implementation | Azure Tools |
+|-----------|----------------|-------------|
+| **Fairness** | Test for bias across groups | Fairness toolkit |
+| **Explainability** | Understand model decisions | Model interpretability |
+| **Transparency** | Document model behavior | Model cards |
+| **Reliability** | Ensure consistent performance | Model monitoring |
+| **Privacy** | Protect sensitive data | Differential privacy |
+| **Accountability** | Human oversight | Audit trails |
+
+> [!TIP]
+> **Feature Engineering Techniques:**
+
+| Technique | Description | When to Use |
+|-----------|-------------|-------------|
+| **Normalization** | Scale features to same range | Different units or scales |
+| **One-Hot Encoding** | Convert categorical to binary | Categorical variables |
+| **Binning** | Group continuous values | Reduce noise, create categories |
+| **Feature Crossing** | Combine multiple features | Capture interactions |
+| **Polynomial Features** | Create higher-order terms | Non-linear relationships |
+
+> [!TIP]
+> **Model Training Best Practices:**
+
+| Practice | Description | Benefit |
+|----------|-------------|---------|
+| **Cross-Validation** | Use multiple train/test splits | More robust evaluation |
+| **Hyperparameter Tuning** | Optimize model parameters | Better performance |
+| **Early Stopping** | Stop when validation stops improving | Prevent overfitting |
+| **Ensemble Methods** | Combine multiple models | Improved accuracy |
+| **Regularization** | Add penalty for complexity | Reduce overfitting |
+
+> [!TIP]
+> **Understanding Overfitting vs Underfitting:**
+
+| Concept | Signs | Solutions |
+|---------|-------|-----------|
+| **Overfitting** | High training accuracy, low validation accuracy | More data, regularization, simpler model |
+| **Underfitting** | Low training and validation accuracy | More complex model, better features |
+| **Good Fit** | Similar training and validation accuracy | Balanced model complexity |
+
+> [!TIP]
+> **Azure ML Workspace Tiers:**
+
+| Tier | Features | Best For |
+|------|----------|----------|
+| **Basic** | Core ML capabilities | Development, learning |
+| **Enterprise** | Advanced features, Designer, AutoML UI | Production, teams |
+
+> [!TIP]
+> **Data Types and ML Applications:**
+
+| Data Type | ML Applications | Example Scenarios |
+|-----------|-----------------|-------------------|
+| **Structured** | Traditional ML algorithms | Sales forecasting, customer analysis |
+| **Unstructured Text** | NLP, sentiment analysis | Review classification, chatbots |
+| **Images** | Computer vision | Object detection, medical imaging |
+| **Time Series** | Forecasting, anomaly detection | Stock prices, sensor data |
+| **Audio** | Speech recognition, classification | Voice assistants, music analysis |
+
 ## Q1: Selecting the Appropriate Module in Azure Machine Learning Designer
 
 > You need to divide an existing dataset into a training set and a validation set. Which module in Azure Machine Learning designer should you use?
