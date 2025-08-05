@@ -5,7 +5,7 @@ Costa Rica
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
-Last updated: 2025-07-16
+Last updated: 2025-08-05
 
 ----------
 
@@ -46,6 +46,184 @@ Last updated: 2025-07-16
 
 </details>
 
+> [!TIP]
+> **Azure Computer Vision Services Overview:**
+
+| Service | Primary Purpose | Key Capabilities | Use Cases |
+|---------|-----------------|------------------|-----------|
+| **Computer Vision** | Pre-built image analysis | Object detection, OCR, image description | Content moderation, accessibility |
+| **Custom Vision** | Custom image classification | Train custom models, object detection | Brand recognition, quality control |
+| **Face API** | Face detection and recognition | Face detection, verification, identification | Security systems, photo organization |
+| **Form Recognizer** | Document data extraction | OCR, key-value pairs, table extraction | Invoice processing, form automation |
+
+> [!TIP]
+> **Computer Vision Capabilities:**
+
+| Capability | Description | Output Example |
+|------------|-------------|----------------|
+| **Image Analysis** | Analyze visual content | Tags, categories, descriptions |
+| **Object Detection** | Locate and identify objects | Bounding boxes with labels |
+| **OCR (Read API)** | Extract text from images | Structured text data |
+| **Spatial Analysis** | Analyze people and spaces | People counting, social distancing |
+| **Image Classification** | Categorize entire images | Single category per image |
+| **Face Detection** | Find faces in images | Face coordinates and attributes |
+
+> [!TIP]
+> **Custom Vision Training Process:**
+
+| Step | Description | Key Considerations |
+|------|-------------|-------------------|
+| **1. Create Project** | Set up classification or detection project | Choose domain (General, Food, etc.) |
+| **2. Upload Images** | Provide training images | Minimum 15 images per class |
+| **3. Tag Images** | Label objects or classify images | Consistent and accurate tagging |
+| **4. Train Model** | Build custom model | Multiple iterations for improvement |
+| **5. Evaluate Performance** | Review precision and recall | Threshold adjustment |
+| **6. Publish Model** | Deploy for prediction | API endpoint creation |
+
+> [!TIP]
+> **OCR and Text Extraction:**
+
+| Feature | Computer Vision OCR | Form Recognizer |
+|---------|-------------------|-----------------|
+| **Best For** | Simple text extraction | Structured document processing |
+| **Supported Formats** | Images (JPG, PNG, BMP) | PDFs, Images, Office documents |
+| **Output** | Raw text | Structured data with key-value pairs |
+| **Languages** | 70+ languages | 70+ languages |
+| **Use Cases** | Street signs, handwritten notes | Invoices, receipts, forms |
+
+> [!TIP]
+> **Image Classification vs Object Detection:**
+
+| Aspect | Image Classification | Object Detection |
+|--------|---------------------|------------------|
+| **Purpose** | Categorize entire image | Find and locate specific objects |
+| **Output** | Single label per image | Multiple bounding boxes with labels |
+| **Training Data** | Images with single labels | Images with object annotations |
+| **Use Cases** | Content filtering, photo organization | Security monitoring, inventory tracking |
+| **Azure Service** | Custom Vision (Classification) | Custom Vision (Object Detection) |
+
+> [!TIP]
+> **Computer Vision Tasks and Techniques:**
+
+| Task | Description | Technical Approach |
+|------|-------------|-------------------|
+| **Image Classification** | Assign category to entire image | Convolutional Neural Networks |
+| **Object Detection** | Locate objects with bounding boxes | YOLO, R-CNN algorithms |
+| **Semantic Segmentation** | Label each pixel | Pixel-level classification |
+| **Instance Segmentation** | Separate individual objects | Object boundaries and classes |
+| **Face Recognition** | Identify specific individuals | Feature extraction and matching |
+| **Optical Character Recognition** | Convert images to text | Text detection and recognition |
+
+> [!TIP]
+> **Azure Form Recognizer Models:**
+
+| Model Type | Purpose | Key Features |
+|------------|---------|--------------|
+| **Prebuilt Invoice** | Process invoices | Extract vendor, amount, date |
+| **Prebuilt Receipt** | Process receipts | Extract merchant, total, items |
+| **Prebuilt Business Card** | Process business cards | Extract contact information |
+| **Prebuilt ID Document** | Process ID cards/passports | Extract personal information |
+| **Custom Model** | Domain-specific forms | Train on your specific documents |
+| **Layout Model** | Extract structure | Tables, text, selection marks |
+
+> [!TIP]
+> **Face API Capabilities:**
+
+| Operation | Purpose | Use Case |
+|-----------|---------|----------|
+| **Detect** | Find faces in images | People counting, demographics |
+| **Verify** | Compare two faces | Identity verification |
+| **Identify** | Match face to person | Access control, photo tagging |
+| **Group** | Cluster similar faces | Photo organization |
+| **Find Similar** | Find matching faces | Duplicate detection |
+
+> [!TIP]
+> **Computer Vision Performance Metrics:**
+
+| Metric | Description | When to Use |
+|--------|-------------|-------------|
+| **Precision** | Correct positive predictions / Total positive predictions | When false positives are costly |
+| **Recall** | Correct positive predictions / Total actual positives | When false negatives are costly |
+| **F1-Score** | Harmonic mean of precision and recall | Balanced performance measure |
+| **Accuracy** | Correct predictions / Total predictions | Overall performance |
+| **mAP** | Mean Average Precision | Object detection evaluation |
+| **IoU** | Intersection over Union | Object localization accuracy |
+
+> [!TIP]
+> **Image Preprocessing Best Practices:**
+
+| Technique | Purpose | Implementation |
+|-----------|---------|----------------|
+| **Normalization** | Standardize pixel values | Scale to 0-1 range |
+| **Resizing** | Consistent input dimensions | Maintain aspect ratio |
+| **Data Augmentation** | Increase training variety | Rotation, flipping, cropping |
+| **Noise Reduction** | Improve image quality | Gaussian blur, median filter |
+| **Contrast Enhancement** | Improve visibility | Histogram equalization |
+
+> [!TIP]
+> **Azure Computer Vision Pricing Tiers:**
+
+| Tier | Features | Best For |
+|------|----------|----------|
+| **Free (F0)** | Limited transactions | Development and testing |
+| **Standard (S1)** | Full features, pay-per-use | Production workloads |
+| **Custom Vision Free** | Limited projects and images | Learning and prototyping |
+| **Custom Vision Standard** | Unlimited projects | Production custom models |
+
+> [!TIP]
+> **Common Computer Vision Challenges:**
+
+| Challenge | Description | Solution |
+|-----------|-------------|----------|
+| **Poor Image Quality** | Blurry, dark, or low-resolution images | Image preprocessing, better lighting |
+| **Occlusion** | Objects partially hidden | Multiple viewpoints, data augmentation |
+| **Scale Variation** | Objects at different sizes | Multi-scale training data |
+| **Lighting Conditions** | Varying illumination | Normalize lighting, diverse training data |
+| **Background Clutter** | Busy backgrounds | Focus on object features, segmentation |
+
+> [!TIP]
+> **Real-World Computer Vision Applications:**
+
+| Industry | Application | Azure Service |
+|----------|-------------|---------------|
+| **Retail** | Product recognition, inventory | Custom Vision |
+| **Healthcare** | Medical image analysis | Computer Vision + Custom models |
+| **Manufacturing** | Quality control, defect detection | Custom Vision |
+| **Security** | Surveillance, access control | Face API, Computer Vision |
+| **Automotive** | Autonomous driving, parking | Computer Vision, Custom Vision |
+| **Agriculture** | Crop monitoring, pest detection | Custom Vision |
+
+> [!TIP]
+> **API Response Formats:**
+
+| Service | Response Type | Key Fields |
+|---------|---------------|------------|
+| **Computer Vision** | JSON | categories, tags, description, objects |
+| **Custom Vision** | JSON | predictions, probability, boundingBox |
+| **Face API** | JSON | faceId, faceRectangle, faceAttributes |
+| **Form Recognizer** | JSON | pages, tables, keyValuePairs |
+
+> [!TIP]
+> **Integration Patterns:**
+
+| Pattern | Description | Benefits |
+|---------|-------------|----------|
+| **REST API** | Direct HTTP calls | Simple integration, language agnostic |
+| **SDK Integration** | Use official SDKs | Strongly typed, error handling |
+| **Logic Apps** | No-code integration | Visual workflow design |
+| **Power Platform** | Citizen developer tools | Business user friendly |
+| **Azure Functions** | Serverless processing | Event-driven, scalable |
+
+> [!TIP]
+> **Security and Compliance:**
+
+| Aspect | Implementation | Benefit |
+|--------|----------------|---------|
+| **API Keys** | Secure key management | Access control |
+| **VNet Integration** | Private network access | Enhanced security |
+| **Managed Identity** | Azure AD authentication | Passwordless authentication |
+| **Data Encryption** | At rest and in transit | Data protection |
+| **Compliance** | GDPR, HIPAA, SOC | Regulatory compliance |
 
 ## Q1: Identifying AI Services for Sentiment Analysis
 
@@ -227,7 +405,7 @@ Last updated: 2025-07-16
 
 <!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1337-limegreen" alt="Total views">
-  <p>Refresh Date: 2025-08-04</p>
+  <img src="https://img.shields.io/badge/Total%20views-1336-limegreen" alt="Total views">
+  <p>Refresh Date: 2025-08-05</p>
 </div>
 <!-- END BADGE -->
